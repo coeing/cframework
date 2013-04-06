@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls/styles"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+      CGui ListBox Style Schema.
+      Copyright 2008 Christian Oeing. Alle Rechte vorbehalten.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./ctrl_style.xsd"/>
+  <xs:include schemaLocation="./listboxcolumn_style.xsd"/>
+  <xs:complexType name="ListBoxStyleType">
+    <xs:complexContent>
+      <xs:extension base="CtrlStyleType">
+        <xs:sequence>
+          <xs:element name="column" type="ListBoxColumnStyleType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="type"    fixed="listbox" />
+        <xs:attribute name="header_visible" type="xs:boolean" default="true" />
+        <xs:attribute name="header_height" type="xs:integer" default="30"/>
+        <xs:attribute name="header_font" type="xs:string" default="common/fonts/cour.ttf"/>
+        <xs:attribute name="header_font_size" type="xs:integer" default="12"/>
+        <xs:attribute name="row_height" type="xs:integer" default="20"/>
+        <xs:attribute name="cell_font" type="xs:string" default="common/fonts/cour.ttf"/>
+        <xs:attribute name="cell_font_size" type="xs:integer" default="12"/>
+        <xs:attribute name="row_color1" type="xs:hexBinary" default="aaaaaa"/>
+        <xs:attribute name="row_color2" type="xs:hexBinary" default="777777"/>
+        <xs:attribute name="text_color1" type="xs:hexBinary" default="cccccc"/>
+        <xs:attribute name="text_color2" type="xs:hexBinary" default="cccccc"/>
+        <xs:attribute name="highlight_color" type="xs:hexBinary" default="aaaa22"/>
+        <xs:attribute name="highlight_text_color" type="xs:hexBinary" default="000000"/>
+        <xs:attribute name="grid_color" type="xs:hexBinary" default="000000"/>
+        <xs:attribute name="grid_inner_horiz_size" type="xs:integer" default="1"/>
+        <xs:attribute name="grid_inner_vert_size" type="xs:integer" default="1"/>
+        <xs:attribute name="grid_outer_size" type="xs:integer" default="1"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="listbox_style" type="ListBoxStyleType"/>
+</xs:schema>
+
+
+
+
+
+
+

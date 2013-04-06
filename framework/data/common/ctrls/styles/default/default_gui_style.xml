@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gui_style xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls/styles ../gui_style.xsd">
+   <ctrl_style type="button"    xml_file="default_button_style.xml"         name="DefaultButton"        default="true"/>
+   <ctrl_style type="editbox"   xml_file="default_editbox_style.xml"        name="DefaultEditBox"       default="true"/>
+   <ctrl_style type="listbox"   xml_file="default_listbox_style.xml"        name="DefaultListBox"       default="true"/>
+   <ctrl_style type="column"    xml_file="default_listboxcolumn_style.xml"  name="DefaultListBoxColumn" default="true"/>
+   <ctrl_style type="checkbox"  xml_file="default_checkbox_style.xml"       name="DefaultCheckBox"      default="true"/>
+   <ctrl_style type="combobox"  xml_file="default_combobox_style.xml"       name="DefaultComboBox"      default="true"/>
+   <ctrl_style type="textbox"   xml_file="default_textbox_style.xml"        name="DefaultTextBox"       default="true"/>
+  <ctrl_style type="tree"       xml_file="default_tree_style.xml"           name="DefaultTree"          default="true"/>
+</gui_style>
+
+
+
+
+
+
+
+
+

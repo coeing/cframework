@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listbox_style xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls/styles ../listbox_style.xsd"
+   bg_color="00000000"
+   header_visible="true"
+   row_height="20"
+   grid_color="000000ff"
+   grid_inner_horiz_size="1"
+   grid_inner_vert_size="1"
+   grid_outer_size="1"
+   header_height="24"
+   row_color1="aaaaaaff"
+   row_color2="ccccccff"
+   highlight_color="dd8888ff">
+</listbox_style>
+
+
+
+
+
+
+
+

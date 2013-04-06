@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<editbox_style xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls/styles ../../../common/ctrls/styles/editbox_style.xsd"
+   width="158" height="16" caret_blink_speed="0" bg_color="dcdcdc">
+  <caret width="12" height="10" bg_visible="false">
+    <state_normal texture="data/art/ctrls/editbox/caret.png"/>
+  </caret>
+  <textbox padding_left="0" padding_top="-3" font_size="10"/>
+</editbox_style>
+
+
+
+

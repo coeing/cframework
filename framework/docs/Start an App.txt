@@ -1,0 +1,30 @@
+1. Application Klasse erstellen:
+
+	- Abgeleitet von CCtrl::App
+
+	- Implementieren von virtual const CCtrl::WindowController* CreateStartScreen() const;
+
+	Beispiel: 
+		const CCtrl::WindowController* ExampleApp::App::CreateStartScreen() const
+		{
+			return CCtrl::WindowController::CreateScreen<ExampleScreen>();
+		}
+
+
+2. StartScreen erstellen:
+
+	- Abgeleitet von CCtrl::WindowController
+
+	- Implementieren von static const CoFiles::String GetXMLFileName();
+
+3. main.cpp (Beispiel):
+
+	#include "ExampleApp.h"
+
+	int main() {
+		ExampleApp theApp;
+		theApp.Start();
+		return 0;
+	}
+
+4. Ins Ausführungsverzeichnis das Verzeichnis "data/common" kopieren

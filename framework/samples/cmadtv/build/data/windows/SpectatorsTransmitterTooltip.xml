@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/panel.xsd"
+   name="SpectatorsTransmitterTooltip" size_mode="content" bg_visible="false">
+  <image name="ImgBackgroundShadow" offset_x="6" offset_y="4" width="168" height="72" bg_color="0x000000" />
+  <image name="ImgBackground" width="170" height="72" bg_color="0x808080" />
+  <textbox name="TbSpectatorsTitle" offset_x="2" offset_y="2" size_mode="custom" width="166" height="18" text="Spectators:" padding_left="12" font_size="12" bg_visible="false" />
+  <textbox name="TbSpectators" offset_x="2" offset_y="20" size_mode="custom" width="166" height="16" text="N/A" padding_left="18" font_size="12" bg_color="0xb0b0b0" />
+  <textbox name="TbPriceTitle" offset_x="2" offset_y="36" size_mode="custom" width="166" height="16" text="Price:" padding_left="12" font_size="12" bg_visible="false" />
+  <textbox name="TbPrice" offset_x="2" offset_y="52" size_mode="custom" width="166" height="18" text="N/A" padding_left="18" font_size="12" bg_color="0xb0b0b0" />
+</panel>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug Win32" />
+	<File name="..\..\..\include\ced\Document.h" open="0" top="0" tabpos="0">
+		<Cursor position="364" topLine="0" />
+	</File>
+	<File name="..\..\..\include\ced\MainWindow.h" open="0" top="0" tabpos="0">
+		<Cursor position="577" topLine="11" />
+	</File>
+	<File name="..\..\..\include\ced\PropertyPanel.h" open="0" top="0" tabpos="2">
+		<Cursor position="778" topLine="23" />
+	</File>
+	<File name="..\..\..\src\ced\CedApp.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="372" topLine="6" />
+	</File>
+	<File name="..\..\..\src\ced\Document.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="394" topLine="0" />
+	</File>
+	<File name="..\..\..\src\ced\MainWindow.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="3154" topLine="99" />
+	</File>
+	<File name="..\..\..\src\ced\PostBuildD.bat" open="1" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\..\..\src\ced\PropertyPanel.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="11861" topLine="343" />
+	</File>
+	<File name="..\..\..\src\ced\main.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="123" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="C-Framework">
+		<Project filename="cofiles\cofiles.cbp" />
+		<Project filename="cofileshelloworld\cofileshelloworld.cbp">
+			<Depends filename="cofiles\cofiles.cbp" />
+		</Project>
+		<Project filename="cgui\cgui.cbp">
+			<Depends filename="cofiles\cofiles.cbp" />
+		</Project>
+		<Project filename="cguihelloworld\cguihelloworld.cbp">
+			<Depends filename="cofiles\cofiles.cbp" />
+			<Depends filename="cgui\cgui.cbp" />
+		</Project>
+		<Project filename="glpng\glpng.cbp" />
+		<Project filename="cctrl\cctrl.cbp">
+			<Depends filename="cofiles\cofiles.cbp" />
+			<Depends filename="cgui\cgui.cbp" />
+		</Project>
+		<Project filename="cctrlhelloworld\cctrlhelloworld.cbp" active="1">
+			<Depends filename="cofiles\cofiles.cbp" />
+			<Depends filename="cgui\cgui.cbp" />
+			<Depends filename="cctrl\cctrl.cbp" />
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,37 @@
+0. Benötigt werden:
+
+	- Compiler
+	- Libraries
+	- Includes
+
+1. Leeres Projekt anlegen
+
+2. Unter Linker:
+
+   Zusätzliche Bibliotheksverzeichnisse:
+	
+	- C-Framework Libraries Verzeichnis
+	- STLPort Libraries Verzeichnis
+
+   Zusätzliche Abhängigkeiten (Order is important!):
+
+	All: 	 freetype.dll tiff.dll glu32 opengl32 uuid oleaut32 gdi32 xerces-c stlport.5.1.dll
+
+	Debug:	 cctrld cguid cofilesd tinyxmld glpngd 
+
+	Release: cctrl  cgui  cofiles  tinyxml  glpng
+
+	Wähle bei Debug und Release: Prepend target options to project options
+
+3. Unter C++:
+
+   Zusätzliche Includeverzeichnisse:
+
+    	- C-Framework Include Verzeichnis
+	- STLPort Include Verzeichnis
+
+   Zusätzliche Compiler Optionen:
+
+	- -mthreads
+
+4. Zur Programmierung siehe "Start an App"

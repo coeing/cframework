@@ -1,0 +1,27 @@
+<Input>
+
+  <Command identifier="game pause">
+    <Key key="P" activation="first down" />
+  </Command>
+
+  <Command identifier="game move left">
+    <Key key="Left" activation="first down" />
+  </Command>
+
+  <Command identifier="game move right">
+    <Key key="Right" activation="first down" />
+  </Command>
+
+  <Command identifier="game move down">
+    <Key key="Down" activation="first down" />
+  </Command>
+
+  <Command identifier="game rotate ccw">
+    <Key key="A" activation="first down" />
+  </Command>
+
+  <Command identifier="game rotate cw">
+    <Key key="S" activation="first down" />
+  </Command>
+
+</Input>

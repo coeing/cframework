@@ -1,0 +1,4 @@
+<Servers>
+  <server name="localhost" host="localhost" port="13" />
+  <server name="Main" host="128.0.0.1" port="1234" />
+</Servers>

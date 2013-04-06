@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../../common/ctrls/window.xsd"
+        name="MainWindow" 
+		offset_x="0"
+		offset_y="0" 
+		width="1024"
+		height="768" 
+		bg_transparent="false" 
+		bg_color="cccccc" >
+  <panel name="MenuPanel" offset_x="0"	offset_y="0"	width="1024" height="68"		bg_transparent="false" bg_color="ccccccff" >
+    <button name="BtProjectSettings" style="DefaultButton" offset_x="10" offset_y="2" width="120" height="25" text="Settings" />
+    <button name="BtOpen" style="DefaultButton" offset_x="10" offset_y="30" width="120" height="25" text="Öffnen" font_size="12" bg_transparent="false" bg_color="ffffff"/>
+    <editbox name="EbOpen" offset_x="140" offset_y="30" width="120" height="25" text="data/screens/Test.xml" font_size="12" bg_transparent="false"/>
+    <button name="BtSave" style="DefaultButton" offset_x="270" offset_y="30" width="120" height="25" text="Speichern" font_size="12" bg_transparent="false" bg_color="ffffff"/>
+  </panel>
+  <panel name="ToolbarPanel"		offset_x="0"	 offset_y="68"	width="800" height="100"	bg_transparent="false" bg_color="ccccccff" >
+    <button name="BtNewButton"   style="DefaultButton" offset_x="10"	offset_y="10"	width="120" height="25" text="Button" bg_transparent="false" bg_color="ff0000" text_align_horizontal="center" />
+    <button name="BtNewImage"    style="DefaultButton" offset_x="140"	offset_y="10"	width="120" height="25" text="Image" bg_transparent="false" bg_color="ffff00"/>
+    <button name="BtNewListBox"  style="DefaultButton" offset_x="270" offset_y="10" width="120" height="25" text="ListBox" bg_transparent="false" bg_color="00ff00"/>
+    <button name="BtNewCheckBox" style="DefaultButton" offset_x="400" offset_y="10" width="120" height="25" text="CheckBox" bg_transparent="false" bg_color="00ffff"/>
+    <button name="BtNewEditBox"  style="DefaultButton" offset_x="530" offset_y="10" width="120" height="25" text="EditBox" bg_transparent="false" bg_color="00ffff"/>
+  </panel>
+  <panel name="ScrollPanelEditorWindow" offset_x="0" offset_y="168" width="800" height="600">
+    <window name="EditorPanel" width="1024" height="768" bg_transparent="false" bg_color="ffffffff"/>
+  </panel>
+  <panel name="PnlProperties" offset_x="800" offset_y="68" width="224" height="700" bg_transparent="false" bg_color="0000ff">
+    <listbox style="DefaultListBox" name="LbProperties" offset_x="12" offset_y="10" width="200" height="300">
+      <column style="DefaultListBoxColumn" name="LbColName" column_header="Name" width="100"/>
+      <column name="LbColValue" column_header="Value" width="100"/>
+    </listbox>
+    <tree name="TrControls" style="default" offset_x="12" offset_y="350" width="200" height="300">      
+    </tree>
+  </panel>
+</window>
+
+
+

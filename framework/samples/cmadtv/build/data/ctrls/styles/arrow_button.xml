@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button_style xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls/styles ../../../common/ctrls/styles/button_style.xsd"
+   width="32" height="32" >
+  <scaleimage name="Background" size_mode="stretch" style="SquareButtonBackground">
+    <image name="middlecenter">
+      <state_normal texture="data/art/ctrls/button/arrow.png"/>
+    </image>
+  </scaleimage>
+</button_style>
+
+
+
+
+

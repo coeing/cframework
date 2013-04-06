@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button xmlns=""
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="button.xsd" 
+		width="16"
+		height="18" >
+	<img_normal texture="common/art/ctrls/buttons/windows_cb_normal.tif" bg_transparent="false" />
+	<img_active texture="common/art/ctrls/buttons/windows_cb_normal.tif" />
+	<img_disabled texture="common/art/ctrls/buttons/windows_cb_normal.tif" />
+	<img_down texture="common/art/ctrls/buttons/windows_cb_down.tif" bg_transparent="false" />
+	<textbox />
+</button>

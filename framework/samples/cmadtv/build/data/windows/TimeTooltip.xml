@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../../common/ctrls/panel.xsd"
+   name="TimeTooltip" width="106" height="24" bg_color="0x808080">
+  <textbox name="TbDay" reference_attach_point="center" local_attach_point="center" width="102" height="20" bg_color="0xdcdcdc" text_align_horizontal="center" text="5. day" />
+</panel>

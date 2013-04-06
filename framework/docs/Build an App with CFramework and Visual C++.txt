@@ -1,0 +1,55 @@
+0. Benötigt werden:
+
+	- Compiler
+	- Libraries
+
+1. Leeres Projekt anlegen
+
+2. Unter Linker:
+
+
+   Zusätzliche Bibliotheksverzeichnisse:
+	
+	./include;../cctrl/lib;../cgui/lib;../cofiles/lib;../glut/lib
+
+   Zusätzliche Abhängigkeiten:
+
+	Debug:		cctrlD.lib cguiD.lib cofilesD.lib glut32.lib user32.lib gdi32.lib oleaut32.lib
+	Release: 	cctrl.lib cgui.lib cofiles.lib glut32.lib user32.lib gdi32.lib oleaut32.lib
+
+   Bibliothek ignorieren (nur bei Debug):
+
+	MSVCRT.lib
+
+
+3. Unter C++:
+
+
+   Zusätzliche Includeverzeichnisse:
+
+    	./include;../cctrl/include;../cgui/include;../cofiles/include
+
+   Laufzeitbibliothek:
+	
+	Debug:		Multithreaded-Debug-DLL
+	Release:		Multithreaded-DLL
+
+
+4. Application Klasse erstellen:
+
+	- Abgeleitet von CCtrl::App
+
+	- Implementieren von virtual const CCtrl::WindowController* CreateStartScreen() const;
+
+	Beispiel: 
+		const CCtrl::WindowController* CDynamic::App::CreateStartScreen() const
+		{
+			return CCtrl::WindowController::CreateScreen<DynamicWindow>();
+		}
+
+
+5. StartScreen erstellen:
+
+	- Abgeleitet von CCtrl::WindowController
+
+	- Implementieren von static const CoFiles::String GetXMLFileName();

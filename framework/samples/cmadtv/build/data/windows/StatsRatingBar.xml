@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/panel.xsd"
+   name="StatsImageBar" size_mode="content" bg_visible="false">
+  <image name="ImgShadowNews" offset_x="12" offset_y="158" local_attach_point="bottom left" width="28" height="150" bg_color="000000" />
+  <panel name="PnlBarNews" offset_x="4" offset_y="150" local_attach_point="bottom left" width="28" height="150" bg_visible="false">
+    <image name="ImgBorder" size_mode="stretch" bg_color="000000"/>
+    <image name="ImgColor" offset_x="2" offset_y="2" size_mode_y="stretch" width="24" bg_color="ffffff"/>
+  </panel>
+  <image name="ImgShadow" offset_x="24" offset_y="158" local_attach_point="bottom left" width="40" height="150" bg_color="000000" />
+  <panel name="PnlBar" offset_x="16" offset_y="150" local_attach_point="bottom left" width="40" height="150" bg_visible="false">
+    <image name="ImgBorder" size_mode="stretch" bg_color="000000"/>
+    <image name="ImgColor" offset_x="2" offset_y="2" size_mode_y="stretch" width="36" bg_color="ffffff"/>
+  </panel>
+  <textbox name="TbHour" offset_x="0" offset_y="156" width="56" height="22" bg_visible="false" text_align_horizontal="center" text="18"/>
+  <image name="ImgArrowUp" offset_x="27" offset_y="172" local_attach_point="top" size_mode="content" bg_visible="false" angle="180">
+    <state_normal texture="data/art/windows/StatsRatingsWindow/arrow.png" />
+  </image>
+  <image name="ImgArrowDown" offset_x="27" offset_y="172" local_attach_point="top" size_mode="content" bg_visible="false">
+    <state_normal texture="data/art/windows/StatsRatingsWindow/arrow.png" />
+  </image>
+</panel>

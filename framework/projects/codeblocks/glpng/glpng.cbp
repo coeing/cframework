@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="glpng" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="libglpngD" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<ExtraCommands>
+					<Add after="postbuildD.bat $(BASEPATH)" />
+				</ExtraCommands>
+				<Environment>
+					<Variable name="BASEPATH" value="../../../ext/glpng" />
+				</Environment>
+			</Target>
+			<Target title="Release">
+				<Option output="libglpng" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="postbuild.bat $(BASEPATH)" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="$(BASEPATH)\include" />
+		</Compiler>
+		<Unit filename="..\..\..\ext\glpng\include\gl\glpng.h" />
+		<Unit filename="..\..\..\ext\glpng\include\png\png.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\png\png.h" />
+		<Unit filename="..\..\..\ext\glpng\include\png\pngconf.h" />
+		<Unit filename="..\..\..\ext\glpng\include\png\pngerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\png\pngget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\png\pngmem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\png\pngpread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\png\pngread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\png\pngrio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\png\pngrtran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\png\pngrutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\png\pngset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\png\pngtrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\zlib\adler32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\zlib\crc32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\zlib\infblock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\zlib\infblock.h" />
+		<Unit filename="..\..\..\ext\glpng\include\zlib\infcodes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\zlib\infcodes.h" />
+		<Unit filename="..\..\..\ext\glpng\include\zlib\inffast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\zlib\inffast.h" />
+		<Unit filename="..\..\..\ext\glpng\include\zlib\inffixed.h" />
+		<Unit filename="..\..\..\ext\glpng\include\zlib\inflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\zlib\inftrees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\zlib\inftrees.h" />
+		<Unit filename="..\..\..\ext\glpng\include\zlib\infutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\zlib\infutil.h" />
+		<Unit filename="..\..\..\ext\glpng\include\zlib\zconf.h" />
+		<Unit filename="..\..\..\ext\glpng\include\zlib\zlib.h" />
+		<Unit filename="..\..\..\ext\glpng\include\zlib\zutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\ext\glpng\include\zlib\zutil.h" />
+		<Unit filename="..\..\..\ext\glpng\src\glpng.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="postbuild.bat">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="postbuildD.bat">
+			<Option target="Debug" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

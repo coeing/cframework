@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls file:///C:/projects/co/cframework/core/cgui/data/common/ctrls/window.xsd"
+   offset_x="304" offset_y="182" width="320" height="100">
+  <image size_mode="stretch" bg_visible="false">
+    <state_normal texture="data/art/windows/PlanningRackShelfWindow/bg.tif"/>
+  </image>
+  <textbox name="TbGenre" offset_x="8" width="304" height="16" text="Kultur:" font_size="10" text_align_vertical="middle" bg_visible="false" />
+  <image name="ObjBroadcastsAnchor" offset_x="8" offset_y="16" />
+  <panel name="PnlTemplateBroadcast" width="304" height="20" attach_object="prev sibling" reference_attach_point="bottom left" bg_visible="false">
+    <image name="ImgBg" size_mode="stretch" texture="data/art/windows/PlanningRackShelfWindow/broadcast_bg.tif" bg_visible="false"/>
+    <textbox name="TbTitle" offset_x="4" size_mode="stretch" text="Broadcast" font_size="10" text_align_vertical="middle" bg_visible="false" />
+  </panel>
+</window>
+
+
+
+
+

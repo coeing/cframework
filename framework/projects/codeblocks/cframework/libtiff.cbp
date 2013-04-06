@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libtiff" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="$(basepath)\lib\libtiffd" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(basepath)\obj\$(project_name)\debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="$(basepath)\lib\libtiff" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(basepath)\obj\$(project_name)\release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Environment>
+				<Variable name="basepath" value="..\..\.." />
+				<Variable name="sourcepath" value="$(basepath)\src\libtiff" />
+			</Environment>
+		</Build>
+		<VirtualTargets>
+			<Add alias="Debug Win32" targets="Debug;" />
+			<Add alias="Release Win32" targets="Release;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<ExtraCommands>
+			<Add after="$(sourcepath)\postbuild.bat $(basepath) $(project_name)" />
+		</ExtraCommands>
+		<Unit filename="..\..\..\include\libtiff\tiff.h" />
+		<Unit filename="..\..\..\include\libtiff\tiffconf.h" />
+		<Unit filename="..\..\..\include\libtiff\tiffio.h" />
+		<Unit filename="..\..\..\include\libtiff\tiffvers.h" />
+		<Unit filename="..\..\..\src\libtiff\postbuild.bat" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

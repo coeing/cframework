@@ -1,0 +1,17 @@
+////////////////////////////////////////////////////////////////////////////////////////////
+///
+/// Macro to simplify the definition of the message factory
+///
+////////////////////////////////////////////////////////////////////////////////////////////
+
+#ifdef MESSAGE_FACTORY
+
+// Create message factory
+class MESSAGE_FACTORY : public CFoundation::PluggableMessageFactory< CFoundation::String >
+{
+public:
+    MESSAGE_FACTORY();
+};
+
+#endif
+       

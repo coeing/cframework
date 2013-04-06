@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../common/ctrls/window.xsd"
+   width="620" height="490" reference_attach_point="center" local_attach_point="center" bg_color="000000ff">
+  <image name="ImgImage" offset_x="10" offset_y="10" width="600" height="400" bg_color="0x00009944">
+    <state_normal texture="data/images/image.png"/>
+  </image>
+  <textbox name="TbCaption" offset_x="10" offset_y="410" width="600" height="20" bg_color="0xff0000ff" text="Caption"/>
+  <textbox name="TbText" offset_x="10" offset_y="440" width="600" height="40" bg_color="0x00ff00ff" text="Text"/>
+</window>
+
+
+
+
+
+
+
+
+
+
+
+
+

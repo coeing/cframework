@@ -1,0 +1,52 @@
+0. Benötigt werden:
+
+	- Compiler
+	- Libraries
+	- Includes
+
+1. Leeres Projekt anlegen
+
+2. Open "Properties..." of the project (right-click on the project or "Project" in menu bar)
+
+3. Go to "C/C++ Build"/"Settings":
+
+   Tab "Tool Settings":
+   
+   - Choose "GCC C++ Compiler"/"Directories"
+   - Add the following include paths
+
+      - STLport include directory
+      - CoFiles include directory
+      - CGui include directory
+
+   - Choose "GCC C++ Compiler"/"Miscellaneous"
+   - Add "-mthreads" to "Other flags"
+
+4. Now you can just compile your files, but the linking will fail cause the compiler doesn't now where the CFramework library files are.
+
+5. Open "Properties..." of the project again
+
+6. Go to "C/C++ Build"/"Settings":
+
+   Tab "Tool Settings":
+
+   - Choose "MinGW C++ Linker"/"Libraries"
+   - Add the following library paths
+
+      - STLport library path
+      - XercesC library path
+      - CoFiles library path
+      - Freetype2 library path
+      - CGui library path
+
+   - Add the following libraries
+
+      - STLport library "stlport.5.1.dll"
+      - OpenGL libraries "opengl32", "glu32"
+      - XercesC library "xerces-c_D" or "xerces-c"
+      - CoFiles library "cofilesD" or "cofiles"
+      - Freetype2 library "freetype.dll"
+      - Libtiff library "libtiff"
+      - CGui library "cguiD" or "cgui"
+
+4. For programming issues see "Start an App"

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+			CGui ScrollPanel Schema.
+			Copyright 2007 Christian Oeing. Alle Rechte vorbehalten.
+		</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./panel.xsd"/>
+  <xs:include schemaLocation="./scrollbar.xsd"/>
+  <xs:element name="scrollpanel" type="ScrollPanelType"/>
+  <xs:complexType name="ScrollPanelType">
+    <xs:complexContent>
+      <xs:extension base="CombinedType">
+        <xs:sequence>
+          <xs:element name="scrollbar_hori"		type="ScrollBarHorizType"	minOccurs="0" maxOccurs="1" />
+          <xs:element name="scrollbar_vert"		type="ScrollBarVertType"	minOccurs="0" maxOccurs="1" />
+          <xs:element name="viewpanel"			type="ViewPanelType"		minOccurs="0" maxOccurs="1" />
+          <xs:choice minOccurs="0" maxOccurs="1">
+            <xs:element name="panel"		type="PanelType" />
+            <xs:element name="window"		type="WindowType" />
+            <xs:element name="button"		type="ButtonType" />
+            <xs:element name="image"		type="ImageType" />
+            <xs:element name="mesh"		type="MeshType" />
+            <xs:element name="textbox"		type="TextBoxType" />
+            <xs:element name="checkbox" type="CheckBoxType"/>
+            <xs:element name="editbox"		type="EditBoxType" />
+            <xs:element name="listbox"		type="ListBoxType" />
+            <xs:element name="combobox" type="ComboBoxType"/>
+            <xs:element name="scrollbar" type="ScrollBarType"/>
+            <xs:element name="scrollpanel" type="ScrollPanelType"/>
+          </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="xml_file" type="xs:string" default="common/ctrls/std_scrollpanel.xml"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ViewPanelType">
+    <xs:complexContent>
+      <xs:restriction base="PanelType">
+        <xs:attribute name="name" type="xs:string" fixed="theViewPanel"/>
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ScrollBarHorizType">
+    <xs:complexContent>
+      <xs:restriction base="ScrollBarType">
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ScrollBarVertType">
+    <xs:complexContent>
+      <xs:restriction base="ScrollBarType">
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
+
+
+
+

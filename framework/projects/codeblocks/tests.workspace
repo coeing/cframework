@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="C-Framework Tests">
+		<Project filename="tests\chelloworld.cbp" />
+		<Project filename="tests\cxmlparser.cbp" />
+		<Project filename="tests\ccofilestest.cbp" />
+		<Project filename="tests\cwindowhelloworld.cbp" />
+		<Project filename="tests\ccontrols.cbp" active="1" />
+	</Workspace>
+</CodeBlocks_workspace_file>

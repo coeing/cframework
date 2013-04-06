@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<progressbar_style xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls/styles ../../../common/ctrls/styles/progressbar_style.xsd"
+   width="82" height="10">
+  <image name="theBg" size_mode="stretch" bg_visible="true" bg_color="a0d8f0" />
+  <image name="theBar" offset_x="2" offset_y="2" width="78" height="6" bg_visible="true" bg_color="dc2424" />
+  <image name="theFg" size_mode="stretch" bg_visible="false" texture="data/art/ctrls/progressbar/fg.png" />
+</progressbar_style>

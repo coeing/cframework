@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../common/ctrls/window.xsd"
+   width="1024" height="768" bg_color="aa1818ff">
+   <panel name="PnlDrop1" offset_x="50" offset_y="50" width="600" height="400" bg_color="ffffffff">
+     <image width="100" height="100" bg_color="ff000044"/>
+     <image width="100" height="100" bg_color="ffff0044"/>
+     <image width="100" height="100" bg_color="ff00ff44"/>
+     <image width="100" height="100" bg_color="00ff0044"/>
+     <image width="100" height="100" bg_color="00ffff44"/>
+     <image width="100" height="100" bg_color="0000ff44"/>
+   </panel>
+   <panel name="PnlDrop2" offset_x="670" offset_y="250" width="300" height="200" />
+   <image name="ImgTrashCan" offset_x="650" offset_y="0" width="149" height="200">
+     <state_normal texture="data/images/trashcan.png"/>
+   </image>
+</window>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

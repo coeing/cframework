@@ -1,0 +1,24 @@
+#ifndef CCTRL_CONTROLS_H
+#define CCTRL_CONTROLS_H
+
+namespace CGui
+{
+    INCLUDE_SHARED_CLASS( Button );
+    INCLUDE_SHARED_CLASS( CheckBox );
+    INCLUDE_SHARED_CLASS( ComboBox );
+    INCLUDE_SHARED_CLASS( EditBox );
+    INCLUDE_SHARED_CLASS( GuiObject );
+    INCLUDE_SHARED_CLASS( Image );
+    INCLUDE_SHARED_CLASS( ListBox );
+    INCLUDE_SHARED_CLASS( ListBoxColumn );
+    INCLUDE_SHARED_CLASS( Panel );
+    INCLUDE_SHARED_CLASS( ProgressBar );
+    INCLUDE_SHARED_CLASS( ScrollBar );
+    INCLUDE_SHARED_CLASS( ScrollPanel );
+    INCLUDE_SHARED_CLASS( TextBox );
+    INCLUDE_SHARED_CLASS( Tree );
+    INCLUDE_SHARED_CLASS( TreeNode );
+    INCLUDE_SHARED_CLASS( Window );
+}
+
+#endif

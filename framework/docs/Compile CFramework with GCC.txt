@@ -1,0 +1,17 @@
+General:
+--------
+
+Turn on compiler option -mthreads
+
+CoFiles:
+--------
+
+- Define
+  - WIN32
+
+- Include directories
+  - STLport
+  - Xercesc
+  - TinyXML
+
+- 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/SpectatorsWindow/bg.png"/>
+  </image>
+  <panel name="PnlMap" offset_x="94" offset_y="8" size_mode="content" bg_visible="false">
+    <image name="ImgMap" texture="data/art/windows/SpectatorsWindow/map.png" size_mode="content" bg_visible="false" />
+    <image name="ImgAntenna1" local_attach_point="center" texture="data/art/windows/SpectatorsWindow/antenna1.png" size_mode="content" bg_visible="false" />
+    <image name="ImgAntenna2" local_attach_point="center" texture="data/art/windows/SpectatorsWindow/antenna2.png" size_mode="content" bg_visible="false" />
+    <image name="ImgAntenna3" local_attach_point="center" texture="data/art/windows/SpectatorsWindow/antenna3.png" size_mode="content" bg_visible="false" />
+  </panel>
+
+  <image name="ImgSatellite1" offset_x="10" offset_y="140" size_mode="content" bg_visible="false">
+    <state_normal texture="data/art/windows/SpectatorsWindow/satellite1.png"/>
+    <state_active texture="data/art/windows/SpectatorsWindow/satellite1_active.png"/>
+  </image>
+  <image name="ImgSatellite2" offset_x="440" offset_y="80" size_mode="content" bg_visible="false">
+    <state_normal texture="data/art/windows/SpectatorsWindow/satellite2.png"/>
+    <state_active texture="data/art/windows/SpectatorsWindow/satellite2_active.png"/>
+  </image>
+  
+  <button name="BtBuy" style="StdButton" button_type="toggle" offset_x="528" offset_y="46" width="96" height="22" text="Kaufen" />
+  <button name="BtSell" style="StdButton" button_type="toggle" offset_x="528" offset_y="72" width="96" height="22" text="Verkaufen" />
+  <button name="BtPrevTransmitter" style="StdButton" offset_x="528" offset_y="98" width="24" height="22" text="<" />
+  <button name="BtNextTransmitter" style="StdButton" offset_x="552" offset_y="98" width="24" height="22" text=">" />
+  <button name="BtSellOk" style="StdButton" offset_x="576" offset_y="98" width="48" height="22" text="OK" />
+
+  <button name="BtPlayer1" style="StdButton" button_type="toggle" offset_x="512" offset_y="136" width="76" height="22" text="Player 1" text_align_horizontal="left" >
+    <state_normal bg_color="dc2424"/>
+    <state_highlight bg_color="c22020"/>
+    <state_active bg_color="f52828"/>
+  </button>
+  <button name="BtPlayer2" style="StdButton" button_type="toggle" attach_object="prev sibling" reference_attach_point="bottom left" offset_y="4" width="76" height="22" text="Player 2" text_align_horizontal="left" >
+    <state_normal bg_color="40a040"/>
+    <state_highlight bg_color="368736"/>
+    <state_active bg_color="4aba4a"/>
+  </button>
+  <button name="BtPlayer3" style="StdButton" button_type="toggle" attach_object="prev sibling" reference_attach_point="bottom left" offset_y="4" width="76" height="22" text="Player 3" text_align_horizontal="left" >
+    <state_normal bg_color="5468a0"/>
+    <state_highlight bg_color="475887"/>
+    <state_active bg_color="6279ba"/>
+  </button>
+  
+  <panel name="PnlTooltipBuy" offset_x="469" offset_y="90" style_location="file" style="data/windows/SpectatorsTransmitterTooltip.xml">
+    <textbox name="TbSpectatorsTitle" text="New spectators:" />
+  </panel>
+  <panel name="PnlTooltipSell" offset_x="466" offset_y="148" style_location="file" style="data/windows/SpectatorsTransmitterTooltip.xml" />
+  <panel name="PnlTooltipSatellite" offset_x="196" offset_y="70" style_location="file" style="data/windows/SpectatorsTransmitterTooltipExt.xml" />
+  <panel name="PnlTooltipSatelliteOwn" offset_x="196" offset_y="70" style_location="file" style="data/windows/SpectatorsTransmitterTooltip.xml" />
+</window>
+
+
+
+
+

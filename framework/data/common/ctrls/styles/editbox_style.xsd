@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML Studio - FREE Community Edition 7.1.0.1135 (http://www.liquid-technologies.com)-->
+<xs:schema xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles" xmlns:ctrls="http://www.oeing.eu/cframework/schemas/ctrls" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.oeing.eu/cframework/schemas/ctrls/styles" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="./button_style.xsd" />
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+      CGui EditBox Style Schema.
+      Copyright 2008 Christian Oeing. Alle Rechte vorbehalten.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="EditBoxCaretType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ImageStyleType">
+        <xs:attribute fixed="theCaret" name="name" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EditBoxStyleType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ButtonStyleType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="caret" type="EditBoxCaretType" />
+        </xs:sequence>
+        <xs:attribute fixed="editbox" name="type" />
+        <xs:attribute name="caret_blink_speed" type="xs:unsignedInt" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="editbox_style" type="EditBoxStyleType" />
+</xs:schema>

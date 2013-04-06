@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button_style xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:ctrls="http://www.oeing.eu/cframework/schemas/ctrls"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls/styles file:///C:/projects/co/cframework/core/cgui/data/common/ctrls/styles/button_style.xsd">
+ <scaleimage left="1" right="2" top="1" bottom="2">
+     <topleft>
+       <state_normal texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_highlight texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_active texture="common/art/ctrls/buttons/wbtld.png"/>
+       <state_active_highlight texture="common/art/ctrls/buttons/wbtld.png"/>
+       <state_disabled texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_modified texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_information texture="common/art/ctrls/buttons/wbtl.png"/>
+     </topleft>
+     <topcenter>
+       <state_normal texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_highlight texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_active texture="common/art/ctrls/buttons/wbtld.png"/>
+       <state_active_highlight texture="common/art/ctrls/buttons/wbtld.png"/>
+       <state_disabled texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_modified texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_information texture="common/art/ctrls/buttons/wbtl.png"/>
+     </topcenter>
+     <topright>
+       <state_normal texture="common/art/ctrls/buttons/wbtr.png"/>
+       <state_highlight texture="common/art/ctrls/buttons/wbtr.png"/>
+       <state_active texture="common/art/ctrls/buttons/wbtrd.png"/>
+       <state_active_highlight texture="common/art/ctrls/buttons/wbtrd.png"/>
+       <state_disabled texture="common/art/ctrls/buttons/wbtr.png"/>
+       <state_modified texture="common/art/ctrls/buttons/wbtr.png"/>
+       <state_information texture="common/art/ctrls/buttons/wbtr.png"/>
+     </topright>
+     <middleleft>
+       <state_normal texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_highlight texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_active texture="common/art/ctrls/buttons/wbmld.png"/>
+       <state_active_highlight texture="common/art/ctrls/buttons/wbmld.png"/>
+       <state_disabled texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_modified texture="common/art/ctrls/buttons/wbtl.png"/>
+       <state_information texture="common/art/ctrls/buttons/wbtl.png"/>
+     </middleleft>
+     <middlecenter>
+       <state_normal texture="common/art/ctrls/buttons/wbmc.png"/>
+       <state_highlight texture="common/art/ctrls/buttons/wbmc.png"/>
+       <state_active texture="common/art/ctrls/buttons/wbmc.png"/>
+       <state_active_highlight texture="common/art/ctrls/buttons/wbmc.png"/>
+       <state_disabled texture="common/art/ctrls/buttons/wbmc.png"/>
+       <state_modified texture="common/art/ctrls/buttons/wbmc.png"/>
+       <state_information texture="common/art/ctrls/buttons/wbmc.png"/>
+     </middlecenter>
+     <middleright>
+       <state_normal texture="common/art/ctrls/buttons/wbmr.png"/>
+       <state_highlight texture="common/art/ctrls/buttons/wbmr.png"/>
+       <state_active texture="common/art/ctrls/buttons/wbmrd.png"/>
+       <state_active_highlight texture="common/art/ctrls/buttons/wbmrd.png"/>
+       <state_disabled texture="common/art/ctrls/buttons/wbmr.png"/>
+       <state_modified texture="common/art/ctrls/buttons/wbmr.png"/>
+       <state_information texture="common/art/ctrls/buttons/wbmr.png"/>
+     </middleright>
+     <bottomleft>
+       <state_normal texture="common/art/ctrls/buttons/wbbl.png"/>
+       <state_highlight texture="common/art/ctrls/buttons/wbbl.png"/>
+       <state_active texture="common/art/ctrls/buttons/wbbld.png"/>
+       <state_active_highlight texture="common/art/ctrls/buttons/wbbld.png"/>
+       <state_disabled texture="common/art/ctrls/buttons/wbbl.png"/>
+       <state_modified texture="common/art/ctrls/buttons/wbbl.png"/>
+       <state_information texture="common/art/ctrls/buttons/wbbl.png"/>
+     </bottomleft>
+     <bottomcenter>
+       <state_normal texture="common/art/ctrls/buttons/wbbc.png"/>
+       <state_highlight texture="common/art/ctrls/buttons/wbbc.png"/>
+       <state_active texture="common/art/ctrls/buttons/wbbcd.png"/>
+       <state_active_highlight texture="common/art/ctrls/buttons/wbbcd.png"/>
+       <state_disabled texture="common/art/ctrls/buttons/wbbc.png"/>
+       <state_modified texture="common/art/ctrls/buttons/wbbc.png"/>
+       <state_information texture="common/art/ctrls/buttons/wbbc.png"/>
+     </bottomcenter>
+     <bottomright>
+       <state_normal texture="common/art/ctrls/buttons/wbbr.png"/>
+       <state_highlight texture="common/art/ctrls/buttons/wbbr.png"/>
+       <state_active texture="common/art/ctrls/buttons/wbbrd.png"/>
+       <state_active_highlight texture="common/art/ctrls/buttons/wbbrd.png"/>
+       <state_disabled texture="common/art/ctrls/buttons/wbbr.png"/>
+       <state_modified texture="common/art/ctrls/buttons/wbbr.png"/>
+       <state_information texture="common/art/ctrls/buttons/wbbr.png"/>
+     </bottomright>
+  </scaleimage>
+  <textbox text_align_horizontal="center"/>
+</button_style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

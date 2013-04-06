@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listboxcolumn_style xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls/styles ../listboxcolumn_style.xsd"
+   column_header="default"
+   bg_visible="false">
+</listboxcolumn_style>
+
+
+
+
+
+
+
+

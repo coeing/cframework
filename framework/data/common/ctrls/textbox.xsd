@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="./object.xsd"/>
+  <xs:complexType name="TextBoxStateType">
+    <xs:complexContent>
+      <xs:extension base="StateType">
+        <xs:attribute name="text_color"      type="xs:hexBinary" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="CutType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="continue"/>
+      <xs:enumeration value="abbr"/>
+      <xs:enumeration value="wrap"/>
+      <xs:enumeration value="word wrap"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="TextBoxType">
+    <xs:complexContent>
+      <xs:extension base="ObjectType">
+        <xs:sequence>
+          <xs:element name="state_normal"           type="TextBoxStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_highlight"        type="TextBoxStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_active"           type="TextBoxStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_active_highlight" type="TextBoxStateType" minOccurs="0" maxOccurs="1"/>
+          <xs:element name="state_disabled"         type="TextBoxStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_modified"         type="TextBoxStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_information"      type="TextBoxStateType" minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="text"					          type="xs:string" />
+        <xs:attribute name="text_color"             type="xs:hexBinary" />
+        <xs:attribute name="font_name"			        type="xs:string" />
+        <xs:attribute name="font_size"				      type="xs:integer" />
+        <xs:attribute name="text_align_horizontal"  type="xs:string" />
+        <xs:attribute name="text_align_vertical"    type="xs:string" />
+        <xs:attribute name="padding_left"           type="xs:integer" default="2" />
+        <xs:attribute name="padding_top"            type="xs:integer" default="2" />
+        <xs:attribute name="padding_right"          type="xs:integer" />
+        <xs:attribute name="padding_bottom"         type="xs:integer" />
+        <xs:attribute name="cut"                    type="CutType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="textbox" type="TextBoxType"/>
+</xs:schema>
+
+
+
+
+
+
+
+
+
+
+
+
+

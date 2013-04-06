@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/StatsBudgetWindow/bg.png"/>
+  </image>
+
+  <textbox name="TbExpenses" offset_x="22" offset_y="12" width="290" height="16" text="Expenses:" bg_visible="false" />
+
+  <object name="ObjAccountValuesAnchor" offset_x="22" offset_y="32" />
+  <panel name="PnlAccount1"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Movies bought" />
+  </panel>
+  <panel name="PnlAccount2"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Transmitters bought" />
+  </panel>
+  <panel name="PnlAccount3"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Screenplays" />
+  </panel>
+  <panel name="PnlAccount4"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Actors/Scene" />
+  </panel>
+  <panel name="PnlAccount5"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Liquidation damages" />
+  </panel>
+  <panel name="PnlAccount6"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Studio rental" />
+  </panel>
+  <panel name="PnlAccount7"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="News costs" />
+  </panel>
+  <panel name="PnlAccount8"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Transmitter fees" />
+  </panel>
+  <panel name="PnlAccount9"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Sundry costs" />
+  </panel>
+  <panel name="PnlExpensesTotal"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml" offset_y="4">
+    <textbox name="TbAccountName" text="Total" />
+  </panel>
+
+  <textbox name="TbIncome" offset_x="326" offset_y="12" width="290" height="16" text="Income:" bg_visible="false" />
+
+  <object name="ObjAccountValuesAnchor2" offset_x="326" offset_y="32" />
+  <panel name="PnlAccount10"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Movies sold" />
+  </panel>
+  <panel name="PnlAccount11"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Advertising income" />
+  </panel>
+  <panel name="PnlAccount12"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Sundry income" />
+  </panel>
+  <panel name="PnlIncomeTotal"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml" offset_y="2">
+    <textbox name="TbAccountName" text="Total" />
+  </panel>
+
+  <object name="ObjOverviewAnchor2" offset_x="326" offset_y="108" />
+  <panel name="PnlOverviewPrev"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="Previous balance:" />
+  </panel>
+  <panel name="PnlOverviewIncome"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml" offset_y="4">
+    <textbox name="TbAccountName" text="+income" />
+  </panel>
+  <panel name="PnlOverviewExpenses"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="-expenses" />
+  </panel>
+  <panel name="PnlOverviewInterest"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml">
+    <textbox name="TbAccountName" text="-interest" />
+  </panel>
+  <panel name="PnlOverviewCurrent"  style_location="file" style="data/windows/StatsBudgetAccountValue.xml" offset_y="4">
+    <textbox name="TbAccountName" text="Current balance:" />
+  </panel>
+  
+  <button name="BtDay" style="StdButton" offset_x="272" offset_y="208" width="96" height="22" text="Today" />
+</window>
+
+
+
+
+

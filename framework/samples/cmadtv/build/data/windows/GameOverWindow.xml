@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   name="GameOverWindow" width="640" height="242" bg_color="">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/GameOverWindow/bg.png"/>
+  </image>
+
+  <panel offset_x="248" offset_y="27" width="144" height="24">
+    <state_normal bg_color="40a040"/>
+    <scaleimage size_mode="stretch" style="ButtonBackground"/>
+    <textbox size_mode="stretch" bg_visible="false" text="Points:" padding_left="10"/>
+  </panel>
+ 
+  <listbox name="LbPoints" style="StdListBox" offset_x="248" offset_y="54" size_mode="custom" width="144" height="128">
+    <column name="ColDesc" width="70"/>
+    <column name="ColPoints" width="70" />
+  </listbox>
+  
+  <button name="BtRestart"   style="BigButtonRed" offset_x="48" offset_y="188" text="Try again" >
+  </button>
+  <button name="BtMainMenu"  style="BigButtonRed" offset_x="240" offset_y="188" text="Main Menu" >
+  </button>
+  <button name="BtExit"  style="BigButtonBlue" offset_x="432" offset_y="188" text="Exit" >
+  </button>
+</window>
+
+
+
+

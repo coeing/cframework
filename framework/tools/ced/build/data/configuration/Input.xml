@@ -1,0 +1,7 @@
+<Input>
+
+  <Command identifier="delete selected object">
+    <Key key="Delete" activation="first down" />
+  </Command>
+
+</Input>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls/styles"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+      CGui Tree Style Schema.
+      Copyright 2010 Christian Oeing. Alle Rechte vorbehalten.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./ctrl_style.xsd"/>
+  <xs:include schemaLocation="./treenode_style.xsd"/>
+  <xs:complexType name="TreeStyleType">
+    <xs:complexContent>
+      <xs:extension base="CtrlStyleType">
+        <xs:sequence>
+          <xs:element name="node" type="TreeNodeStyleType"    minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="type"    fixed="tree" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="tree_style" type="TreeStyleType"/>
+</xs:schema>
+
+
+
+
+
+
+

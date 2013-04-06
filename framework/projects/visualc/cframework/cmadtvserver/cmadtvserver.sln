@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cmadtvserver", "cmadtvserver.vcproj", "{40E86F1A-6C5E-4203-A140-BF417C991BC8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0D56782B-A12A-49A3-88ED-51962AFC2385} = {0D56782B-A12A-49A3-88ED-51962AFC2385}
+		{FA736082-350C-4ABE-B62D-D2FDDA0B3B17} = {FA736082-350C-4ABE-B62D-D2FDDA0B3B17}
+		{D6C1149D-2200-45DB-95F7-9797BB50D5A4} = {D6C1149D-2200-45DB-95F7-9797BB50D5A4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cmadtvdata", "..\cmadtvdata\cmadtvdata.vcproj", "{FA736082-350C-4ABE-B62D-D2FDDA0B3B17}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0D56782B-A12A-49A3-88ED-51962AFC2385} = {0D56782B-A12A-49A3-88ED-51962AFC2385}
+		{D6C1149D-2200-45DB-95F7-9797BB50D5A4} = {D6C1149D-2200-45DB-95F7-9797BB50D5A4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cfoundation", "..\cfoundation\cfoundation.vcproj", "{D6C1149D-2200-45DB-95F7-9797BB50D5A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "csystem", "..\csystem\csystem.vcproj", "{0D56782B-A12A-49A3-88ED-51962AFC2385}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D6C1149D-2200-45DB-95F7-9797BB50D5A4} = {D6C1149D-2200-45DB-95F7-9797BB50D5A4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Hybrid|Win32 = Hybrid|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40E86F1A-6C5E-4203-A140-BF417C991BC8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{40E86F1A-6C5E-4203-A140-BF417C991BC8}.Debug|Win32.Build.0 = Debug|Win32
+		{40E86F1A-6C5E-4203-A140-BF417C991BC8}.Hybrid|Win32.ActiveCfg = Hybrid|Win32
+		{40E86F1A-6C5E-4203-A140-BF417C991BC8}.Hybrid|Win32.Build.0 = Hybrid|Win32
+		{40E86F1A-6C5E-4203-A140-BF417C991BC8}.Release|Win32.ActiveCfg = Release|Win32
+		{40E86F1A-6C5E-4203-A140-BF417C991BC8}.Release|Win32.Build.0 = Release|Win32
+		{FA736082-350C-4ABE-B62D-D2FDDA0B3B17}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FA736082-350C-4ABE-B62D-D2FDDA0B3B17}.Debug|Win32.Build.0 = Debug|Win32
+		{FA736082-350C-4ABE-B62D-D2FDDA0B3B17}.Hybrid|Win32.ActiveCfg = Hybrid|Win32
+		{FA736082-350C-4ABE-B62D-D2FDDA0B3B17}.Hybrid|Win32.Build.0 = Hybrid|Win32
+		{FA736082-350C-4ABE-B62D-D2FDDA0B3B17}.Release|Win32.ActiveCfg = Release|Win32
+		{FA736082-350C-4ABE-B62D-D2FDDA0B3B17}.Release|Win32.Build.0 = Release|Win32
+		{D6C1149D-2200-45DB-95F7-9797BB50D5A4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6C1149D-2200-45DB-95F7-9797BB50D5A4}.Debug|Win32.Build.0 = Debug|Win32
+		{D6C1149D-2200-45DB-95F7-9797BB50D5A4}.Hybrid|Win32.ActiveCfg = Hybrid|Win32
+		{D6C1149D-2200-45DB-95F7-9797BB50D5A4}.Hybrid|Win32.Build.0 = Hybrid|Win32
+		{D6C1149D-2200-45DB-95F7-9797BB50D5A4}.Release|Win32.ActiveCfg = Release|Win32
+		{D6C1149D-2200-45DB-95F7-9797BB50D5A4}.Release|Win32.Build.0 = Release|Win32
+		{0D56782B-A12A-49A3-88ED-51962AFC2385}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D56782B-A12A-49A3-88ED-51962AFC2385}.Debug|Win32.Build.0 = Debug|Win32
+		{0D56782B-A12A-49A3-88ED-51962AFC2385}.Hybrid|Win32.ActiveCfg = Hybrid|Win32
+		{0D56782B-A12A-49A3-88ED-51962AFC2385}.Hybrid|Win32.Build.0 = Hybrid|Win32
+		{0D56782B-A12A-49A3-88ED-51962AFC2385}.Release|Win32.ActiveCfg = Release|Win32
+		{0D56782B-A12A-49A3-88ED-51962AFC2385}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

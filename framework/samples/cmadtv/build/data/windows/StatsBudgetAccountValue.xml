@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/panel.xsd"
+   name="StatsBudgetAccountValue" size_mode="content" bg_visible="false" attach_object="prev sibling" reference_attach_point="bottom left">
+  <textbox name="TbAccountName" width="290" height="16" bg_visible="false" />
+  <textbox name="TbAccountValue" width="290" height="16" text="0 $" text_align_horizontal="right" bg_visible="false" />
+</panel>

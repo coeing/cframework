@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Calendar>
+  <Door day="1">
+    <Suprise image="data/images/04.png" caption="So frech..." text="...und kriegst trotzdem einen Adventskalendar."/>
+  </Door>
+  <Door day="2">
+    <Suprise image="data/images/06.png" caption="Aber..." text="...du kannst auch ganz lieb sein :)"/>
+  </Door>
+  <Door day="3">
+    <Suprise image="data/images/02.png" caption="Silvester 2006" text="Unser erstes Jahr geht zuende, ein schöner Abschluss."/>
+  </Door>
+  <Door day="4">
+    <Suprise image="data/images/14.png" caption="Auf die Plätze..." text="Ab ins Meer und in die Wellen mit dir: Huiiii"/>
+  </Door>
+  <Door day="5">
+    <Suprise image="data/images/05.png" caption="Reichenau" text="Wir strahlen mit der Sonne um die Wette, wetten wir gewinnen?! Bis heute abend"/>
+  </Door>
+  <Door day="6">
+    <Suprise image="data/images/08.png" caption="Berlin 2007" text="Freu mich schon auf unser späteres Haus :)"/>
+  </Door>
+  <Door day="7">
+    <Suprise image="data/images/2advent.png" caption="Schönen 2. Advent" text="Wie kann ich dich heut verwöhnen? Wünsch dir was."/>
+  </Door>
+  <Door day="8">
+    <Suprise image="data/images/12.png" caption="Berlin 2007" text="Hast recht, war soo schön, ich wollte auch nicht gehn."/>
+  </Door>
+  <Door day="9">
+    <Suprise image="data/images/03.png" caption="Nicht nur wach..." text="...auch im Schlaf wunderschön..."/>
+  </Door>
+  <Door day="10">
+    <Suprise image="data/images/10.png" caption="Italien 2007" text="Schöne Frauen haben sie in Italien, muss man schon sagen."/>
+  </Door>
+  <Door day="11">
+    <Suprise image="data/images/danke.png" caption="Dankeschön" text="Für 2 Jahre und 7 Monate eine tolle Zeit. Alles Liebe zum Monatstag."/>
+  </Door>
+  <Door day="12">
+    <Suprise image="data/images/09.png" caption="Also so..." text="...komm ich doch immer gern ins Bett :)"/>
+  </Door>
+  <Door day="13">
+    <Suprise image="data/images/19.png" caption="Denk dran:" text="Immer schön brav sein :)"/>
+  </Door>
+  <Door day="14">
+    <Suprise image="data/images/17.png" caption="Schönen 3. Advent" text="Nur schade, dass unser Wochenende schon wieder rum ist :( *vermiss*"/>
+  </Door>
+  <Door day="15">
+    <Suprise image="data/images/11.png" caption="Brrrr, so kalt hier" text="Da würd ich doch lieber ans Meer mit dir!"/>
+  </Door>
+  <Door day="16">
+    <Suprise image="data/images/13.png" caption="Wenn ich dich lächeln seh..." text="...wird mir immer ganz warm ums Herz, selbst bei diesen Temperaturen."/>
+  </Door>
+  <Door day="17">
+    <Suprise image="data/images/15.png" caption="Selbst Kultur besichtigen macht Spaß mit dir." text="Danke für all die schönen Stunden, die vergangenen und die noch kommenden."/>
+  </Door>
+  <Door day="18">
+    <Suprise image="data/images/07.png" caption="Also so..." text="...werd ich ja nie fertig mit dem Anziehen ;)"/>
+  </Door>
+  <Door day="19">
+    <Suprise image="data/images/01.png" caption="Nein, ich schau dir nicht in den Ausschnitt!" text="Allerdings weiß ich auch nicht mehr, wo ich sonst hingeschaut habe ;)"/>
+  </Door>
+  <Door day="20">
+    <Suprise image="data/images/24.png" caption="Heute kein Stress." text="Heute nur wir zwei zusammengekuschelt. Ich kann mir nichts Schöneres vorstellen."/>
+  </Door>
+  <Door day="21">
+    <Suprise image="data/images/22.png" caption="Schönen 4. Advent" text="Nur noch drei Tage, dann ist schon Weihnachten."/>
+  </Door>
+  <Door day="22">
+    <Suprise image="data/images/23.png" caption="Etwa nicht?" text="Dann möcht ichs hiermit tun: Ich liebe dich mehr als alles andere auf der Welt."/>
+  </Door>
+  <Door day="23">
+    <Suprise image="data/images/20.png" caption="Viel Spaß daheim" text="Wünsche dir ein paar schöne Tage mit deiner Family."/>
+  </Door>
+  <Door day="24">
+    <Suprise image="data/images/16.png" caption="Aber..." text="...Silvester wird dafür umso schöner mit dir zusammen. Bis Sonntag :*"/>
+  </Door>
+</Calendar>
+

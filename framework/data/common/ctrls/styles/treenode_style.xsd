@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls/styles"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+      CGui TreeNode Style Schema.
+      Copyright 2010 Christian Oeing. Alle Rechte vorbehalten.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./ctrl_style.xsd"/>
+  <xs:include schemaLocation="./button_style.xsd"/>
+  <xs:include schemaLocation="./image_style.xsd"/>
+  <xs:include schemaLocation="./textbox_style.xsd"/>
+  <xs:complexType name="TreeNodeStyleType">
+    <xs:complexContent>
+      <xs:extension base="CtrlStyleType">
+        <xs:sequence>
+          <xs:element name="button"         type="ButtonStyleType"    minOccurs="0" maxOccurs="1" />
+          <xs:element name="icon"          type="ImageStyleType"     minOccurs="0" maxOccurs="1" />
+          <xs:element name="textbox"        type="TextBoxStyleType"   minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="type" fixed="treenode" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="treenode_style" type="TreeNodeStyleType"/>
+</xs:schema>
+
+
+
+
+
+
+

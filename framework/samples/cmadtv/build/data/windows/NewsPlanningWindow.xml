@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   offset_x="16" offset_y="8" width="608" height="216">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/NewsStudioWindow/news_planning_bg.png"/>
+  </image>
+  <object offset_x="2" offset_y="29"/>
+  <button name="BtNewsChannel1" attach_object="prev sibling" reference_attach_point="right" local_attach_point="left" offset_x="8" width="42" height="42" button_type="toggle">
+    <image name="Background">
+      <state_normal texture="data/art/windows/NewsStudioWindow/news_planning_button_up.png"/>
+      <state_active texture="data/art/windows/NewsStudioWindow/news_planning_button_down.png"/>
+    </image>
+    <image reference_attach_point="center" local_attach_point="center" width="34" height="34">
+      <state_normal texture="data/art/windows/NewsStudioWindow/news_political.png"/>
+    </image>
+  </button>
+  <button name="BtNewsChannel2" attach_object="prev sibling" reference_attach_point="right" local_attach_point="left" offset_x="6" width="42" height="42" button_type="toggle">
+    <image size_mode="stretch">
+      <state_normal texture="data/art/windows/NewsStudioWindow/news_planning_button_up.png"/>
+      <state_active texture="data/art/windows/NewsStudioWindow/news_planning_button_down.png"/>
+    </image>
+    <image reference_attach_point="center" local_attach_point="center" width="34" height="34">
+      <state_normal texture="data/art/windows/NewsStudioWindow/news_show.png"/>
+    </image>
+  </button>
+  <button name="BtNewsChannel3" attach_object="prev sibling" reference_attach_point="right" local_attach_point="left" offset_x="6" width="42" height="42" button_type="toggle">
+    <image size_mode="stretch">
+      <state_normal texture="data/art/windows/NewsStudioWindow/news_planning_button_up.png"/>
+      <state_active texture="data/art/windows/NewsStudioWindow/news_planning_button_down.png"/>
+    </image>
+    <image reference_attach_point="center" local_attach_point="center" width="34" height="34">
+      <state_normal texture="data/art/windows/NewsStudioWindow/news_sundry.png"/>
+    </image>
+  </button>
+  <button name="BtUp" offset_x="184" offset_y="8"  style="ArrowButton" />
+  <button name="BtDown" offset_x="224" offset_y="8"  style="ArrowButton" angle="180" />
+  <image  name="ObjTrash" texture="data/art/windows/PlanningWindow/trash.png" offset_x="264" offset_y="8" width="28" height="28" bg_visible="false" />
+  <object offset_x="8" offset_y="74" />
+  <panel name="News1" style="data/windows/NewsBlock.xml" style_location="file" attach_object="prev sibling" reference_attach_point="bottom left" />
+  <panel name="News2" style="data/windows/NewsBlock.xml" style_location="file" attach_object="prev sibling" reference_attach_point="bottom left" />
+  <object offset_x="312" offset_y="6" />
+  <panel name="NewsSlot1" attach_object="prev sibling" reference_attach_point="bottom left" width="288" height="68">
+    <image name="Background" size_mode="stretch">
+      <state_normal texture="data/art/windows/NewsStudioWindow/news_planning_slot.png"/>
+    </image>
+  </panel>
+  <panel name="NewsSlot2" attach_object="prev sibling" reference_attach_point="bottom left" width="288" height="68">
+    <image name="Background" size_mode="stretch">
+      <state_normal texture="data/art/windows/NewsStudioWindow/news_planning_slot.png"/>
+    </image>
+  </panel>
+  <panel name="NewsSlot3" attach_object="prev sibling" reference_attach_point="bottom left" width="288" height="68">
+    <image name="Background" size_mode="stretch">
+      <state_normal texture="data/art/windows/NewsStudioWindow/news_planning_slot.png"/>
+    </image>
+  </panel>
+</window>
+
+
+
+
+

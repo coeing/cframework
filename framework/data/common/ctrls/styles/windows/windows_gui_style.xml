@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gui_style xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls/styles ../gui_style.xsd">
+   <ctrl_style name="DefaultComboBox" default="true" xml_file="windows_combobox_style.xml"></ctrl_style>
+   <ctrl_style name="DefaultButton" default="true" xml_file="windows_button_style.xml"></ctrl_style>
+  <ctrl_style name="DefaultListBox" default="true" xml_file="windows_listbox_style.xml"></ctrl_style>
+  <ctrl_style name="DefaultTree" default="true" xml_file="windows_tree_style.xml"></ctrl_style>
+</gui_style>
+
+

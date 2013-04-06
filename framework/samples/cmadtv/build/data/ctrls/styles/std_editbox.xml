@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<editbox_style xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls/styles file:///C:/projects/co/cframework/core/cgui/data/common/ctrls/styles/editbox_style.xsd"
+   width="144" height="24" caret_blink_speed="0" >
+  <image name="theCaret" width="12" height="10" bg_visible="false">
+    <state_normal texture="data/art/ctrls/editbox/caret.png"/>
+  </image>
+  <scaleimage style="ButtonBackground" size_mode="stretch"/>
+  <textbox name="theTextBox" size_mode="stretch" padding_left="10" bg_visible="false"/>
+</editbox_style>
+
+
+
+

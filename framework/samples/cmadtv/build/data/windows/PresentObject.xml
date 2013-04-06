@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/panel.xsd"
+   size_mode="content" bg_visible="false">
+  <image name="ImgImage" width="64" height="48" bg_visible="true" />
+  <textbox name="TbPrice" offset_y="52" size_mode_x="stretch" height="16" text_align_horizontal="right" padding_right="2" text="99" bg_visible="false" />
+</panel>
+
+
+
+
+

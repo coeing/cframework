@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button xmlns=""
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="..\ctrls\button.xsd" >
+	<img_normal texture="common\\art\\ctrls\\buttons\\trans_button_normal.tif" mask="common\\art\\ctrls\\buttons\\trans_button_mask.tif" bg_transparent="true" />
+	<img_active texture="common\\art\\ctrls\\buttons\\trans_button_over.tif" mask="common\\art\\ctrls\\buttons\\trans_button_mask.tif" bg_transparent="true" />
+	<img_disabled texture="common\\art\\ctrls\\buttons\\trans_button_down.tif" mask="common\\art\\ctrls\\buttons\\trans_button_mask.tif" bg_transparent="true" />
+	<img_down texture="common\\art\\ctrls\\buttons\\trans_button_down.tif" mask="common\\art\\ctrls\\buttons\\trans_button_mask.tif" bg_transparent="true" />
+	<textbox />
+</button>

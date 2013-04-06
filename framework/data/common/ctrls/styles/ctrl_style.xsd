@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls/styles"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+      CGui Ctrl Style Schema.
+      Copyright 2008 Christian Oeing. Alle Rechte vorbehalten.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="StateType">
+    <xs:attribute name="bg_visible"    type="xs:boolean"/>
+    <xs:attribute name="bg_color"      type="xs:hexBinary"/>
+  </xs:complexType>
+  <xs:complexType name="CtrlStyleType">
+    <xs:sequence>
+      <xs:element name="state_normal"           type="StateType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="state_highlight"        type="StateType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="state_active"           type="StateType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="state_active_highlight" type="StateType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="state_disabled"         type="StateType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="state_modified"         type="StateType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="state_information"      type="StateType" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="style"           type="xs:string"/>
+    <xs:attribute name="style_location"  type="xs:string" default="style"/>
+    <xs:attribute name="width"           type="xs:integer"/>
+    <xs:attribute name="height"          type="xs:integer"/>
+    <xs:attribute name="ratio"           type="xs:float"/>
+    <xs:attribute name="visible"         type="xs:boolean"/>
+    <xs:attribute name="transparency"    type="xs:boolean"/>
+    <xs:attribute name="bg_visible"      type="xs:boolean"/>
+    <xs:attribute name="bg_color"        type="xs:hexBinary"/>
+    <xs:attribute name="outline"         type="xs:string"/>
+  </xs:complexType>
+</xs:schema>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/panel.xsd"
+   name="StatsImageBar" size_mode="content" bg_visible="false">
+  <image name="ImgShadow" offset_x="28" offset_y="158" local_attach_point="bottom left" width="56" height="150" bg_color="0x000000" />
+  <panel name="PnlBar" offset_x="20" offset_y="150" local_attach_point="bottom left" width="56" height="150" bg_visible="false">
+    <image name="ImgBorder" size_mode="stretch" bg_color="0x000000"/>
+    <image name="ImgColor" offset_x="2" offset_y="2" size_mode_y="stretch" width="52" bg_color="0xffffff"/>
+  </panel>
+  <textbox name="TbImage" offset_x="0" offset_y="166" width="96" height="22" bg_visible="false" text_align_horizontal="center" text="31%"/>
+</panel>

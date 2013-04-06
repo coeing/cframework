@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+			CGui EditBox Schema.
+			Copyright 2007 Christian Oeing. Alle Rechte vorbehalten.
+		</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./button.xsd"/>
+  <xs:element name="editbox" type="EditBoxType"/>
+  <xs:complexType name="EditBoxType">
+    <xs:complexContent>
+      <xs:extension base="ButtonType">
+        <xs:sequence>
+          <xs:element name="caret" type="EditBoxCaretType" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="xml_file" type="xs:string" default="common/ctrls/std_editbox.xml"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EditBoxCaretType">
+    <xs:complexContent>
+      <xs:extension base="ImageType">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
+
+
+
+
+

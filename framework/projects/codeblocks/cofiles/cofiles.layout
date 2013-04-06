@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\..\..\core\cofiles\include\cofiles\Color.h" open="1" top="0" tabpos="23">
+		<Cursor position="479" topLine="9" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\Defines.h" open="0" top="0" tabpos="0">
+		<Cursor position="101" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\ObjectNode.h" open="1" top="0" tabpos="42">
+		<Cursor position="505" topLine="14" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\Rect.h" open="1" top="0" tabpos="50">
+		<Cursor position="239" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\Singleton.h" open="0" top="0" tabpos="5">
+		<Cursor position="801" topLine="16" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\String.h" open="1" top="0" tabpos="32">
+		<Cursor position="1967" topLine="53" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\Types.h" open="0" top="0" tabpos="0">
+		<Cursor position="328" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\XMLNode.h" open="0" top="0" tabpos="14">
+		<Cursor position="667" topLine="3" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\XMLParser.h" open="0" top="0" tabpos="0">
+		<Cursor position="345" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\tinyxml\XMLDocument.h" open="0" top="0" tabpos="5">
+		<Cursor position="284" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\tinyxml\XMLNode.h" open="0" top="0" tabpos="16">
+		<Cursor position="795" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\tinyxml\XMLText.h" open="0" top="0" tabpos="15">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\xercesc\XMLDocument.h" open="0" top="0" tabpos="6">
+		<Cursor position="438" topLine="1" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\xercesc\XMLElement.h" open="1" top="0" tabpos="2">
+		<Cursor position="642" topLine="9" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\xercesc\XMLNode.h" open="0" top="0" tabpos="7">
+		<Cursor position="393" topLine="9" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\xercesc\XMLParser.h" open="0" top="0" tabpos="8">
+		<Cursor position="696" topLine="15" />
+	</File>
+	<File name="..\..\..\core\cofiles\include\cofiles\xercesc\XMLText.h" open="0" top="0" tabpos="10">
+		<Cursor position="332" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\Color.cpp" open="1" top="0" tabpos="24">
+		<Cursor position="3111" topLine="80" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\Date.cpp" open="0" top="0" tabpos="38">
+		<Cursor position="97" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\Logger.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="14" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\String.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="495" topLine="30" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\tinyxml\XMLDocument.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="87" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\tinyxml\XMLElement.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="275" topLine="42" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\tinyxml\XMLNode.cpp" open="0" top="0" tabpos="17">
+		<Cursor position="2535" topLine="123" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\tinyxml\XMLParser.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="487" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\tinyxml\XMLText.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="282" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\xercesc\XMLDocument.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1383" topLine="36" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\xercesc\XMLElement.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1487" topLine="68" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\xercesc\XMLNode.cpp" open="1" top="0" tabpos="48">
+		<Cursor position="574" topLine="19" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\xercesc\XMLParser.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="2768" topLine="92" />
+	</File>
+	<File name="..\..\..\core\cofiles\src\xercesc\XMLText.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="527" topLine="17" />
+	</File>
+	<File name="postbuild.bat" open="0" top="0" tabpos="33">
+		<Cursor position="29" topLine="0" />
+	</File>
+	<File name="postbuildD.bat" open="0" top="0" tabpos="26">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

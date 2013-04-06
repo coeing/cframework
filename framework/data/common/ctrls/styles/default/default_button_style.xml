@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button_style xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls/styles ../button_style.xsd"
+   colored="true" bg_visible="false" width="200" height="100">
+  <image name="theBackground" size_mode="stretch" mask="common/art/ctrls/buttons/trans_button_mask.tif">
+    <state_normal    texture="common/art/ctrls/buttons/trans_button_normal.tif" mask="common/art/ctrls/buttons/trans_button_mask.tif" bg_color="ff0000ff" />
+    <state_highlight texture="common/art/ctrls/buttons/trans_button_over.tif"   mask="common/art/ctrls/buttons/trans_button_mask.tif" bg_color="00ff00ff" />
+    <state_active    texture="common/art/ctrls/buttons/trans_button_down.tif"   mask="common/art/ctrls/buttons/trans_button_mask.tif" bg_color="0000ffff" />
+    <state_disabled  texture="common/art/ctrls/buttons/trans_button_down.tif"   mask="common/art/ctrls/buttons/trans_button_mask.tif" bg_color="777777ff" />
+  </image>
+  <textbox name="theTextBox" size_mode="stretch" text_align_horizontal="center" text_align_vertical="middle" bg_visible="false" />
+</button_style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

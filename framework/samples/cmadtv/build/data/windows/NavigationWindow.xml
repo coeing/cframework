@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   name="NavigationWindow" offset_y="400" width="640" height="50">
+  <image size_mode="stretch">
+    <state_normal bg_color="000000"/>
+  </image>
+  <image name="ButtonAttachPoint" offset_y="10"/>
+  <button name="BtBoss" style="StdButton" attach_object="prev sibling" reference_attach_point="top right" offset_x="10" width="30" height="30" button_type="toggle" text="Bo" text_align_horizontal="center">
+    <state_normal texture="data/art/windows/NavigationWindow/iconBoss.png"/>
+  </button>
+  <button name="BtPlanning" style="StdButton" attach_object="prev sibling" reference_attach_point="top right" offset_x="10" width="30" height="30" button_type="toggle" text="Pl">
+    <state_normal texture="data/art/windows/NavigationWindow/iconPlanning.png"/>
+  </button>
+  <button name="BtSpectators" style="StdButton" attach_object="prev sibling" reference_attach_point="top right" offset_x="10" width="30" height="30" button_type="toggle" text="Sp">
+  </button>
+  <button name="BtNewsStudio" style="StdButton" attach_object="prev sibling" reference_attach_point="top right" offset_x="10" width="30" height="30" button_type="toggle" text="N">
+    <state_normal texture="data/art/windows/NavigationWindow/iconAdvertDealer.png"/>
+  </button>
+  <button name="BtBroadcastDealer" style="StdButton" attach_object="prev sibling" reference_attach_point="top right" offset_x="10" width="30" height="30" button_type="toggle" text="Br">
+    <state_normal texture="data/art/windows/NavigationWindow/iconBroadcastDealer.png"/>
+  </button>
+  <button name="BtAdvertDealer" style="StdButton" attach_object="prev sibling" reference_attach_point="top right" offset_x="10" width="30" height="30" button_type="toggle" text="Ad">
+    <state_normal texture="data/art/windows/NavigationWindow/iconAdvertDealer.png"/>
+  </button>
+  <button name="BtLibrary" style="StdButton" attach_object="prev sibling" reference_attach_point="top right" offset_x="10" width="30" height="30" button_type="toggle" text="Li">
+    <state_normal texture="data/art/windows/NavigationWindow/iconAdvertDealer.png"/>
+  </button>
+  <button name="BtSupermarket" style="StdButton" attach_object="prev sibling" reference_attach_point="top right" offset_x="10" width="30" height="30" button_type="toggle" text="Su">
+    <state_normal texture="data/art/windows/NavigationWindow/iconAdvertDealer.png"/>
+  </button>
+  <button name="BtBetty" style="StdButton" attach_object="prev sibling" reference_attach_point="top right" offset_x="10" width="30" height="30" button_type="toggle" text="Be">
+    <state_normal texture="data/art/windows/NavigationWindow/iconAdvertDealer.png"/>
+  </button>
+</window>
+
+

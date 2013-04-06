@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls file:///C:/projects/co/cframework/core/cgui/data/common/ctrls/window.xsd"
+   name="BroadcastBlock" width="288" height="64">
+  <image name="ImgBackground" size_mode="stretch">
+    <state_normal texture="data/art/windows/PlanningWindow/broadcast_block_2.tif"/>
+    <state_active texture="data/art/windows/PlanningWindow/broadcast_block_2_active.tif"/>
+  </image>
+  <textbox name="TbTitle" offset_x="2" offset_y="2" size_mode="stretch" text="Broadcast" font_size="12" text_align_vertical="top" bg_visible="false" />
+</panel>
+
+

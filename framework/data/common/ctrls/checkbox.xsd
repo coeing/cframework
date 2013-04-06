@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+      CGui CheckBox Schema.
+      Copyright 2007 Christian Oeing. Alle Rechte vorbehalten.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./button.xsd"/>
+  <xs:element name="checkbox" type="CheckBoxType"/>
+  <xs:complexType name="CheckBoxType">
+    <xs:complexContent>
+      <xs:extension base="CombinedType">
+        <xs:sequence>
+          <xs:element name="button"	 type="ButtonType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="textbox" type="TextBoxType" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="text" type="xs:string" default=""/>
+        <xs:attribute name="button_ration" type="xs:float" default="1.0"/>
+        <xs:attribute name="xml_file" type="xs:string" default="common/ctrls/std_checkbox.xml"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
+
+
+
+
+
+

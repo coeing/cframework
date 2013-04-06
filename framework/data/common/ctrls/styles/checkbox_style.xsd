@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+           targetNamespace="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+      CGui CheckBox Style Schema.
+      Copyright 2008 Christian Oeing. Alle Rechte vorbehalten.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./button_style.xsd"/>
+  <xs:include schemaLocation="./textbox_style.xsd"/>
+  <xs:element name="checkbox_style" type="CheckBoxStyleType"/>
+  <xs:complexType name="CheckBoxButtonStyleType">
+    <xs:complexContent>
+      <xs:extension base="ButtonStyleType">
+        <xs:attribute name="button_type" type="xs:string" fixed="toggle"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="CheckBoxStyleType">
+    <xs:complexContent>
+      <xs:extension base="CtrlStyleType">
+        <xs:sequence>
+          <xs:element name="button_style"      type="CheckBoxButtonStyleType"	minOccurs="0" maxOccurs="1" />
+          <xs:element name="textbox_style"     type="TextBoxStyleType" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="type"    fixed="checkbox" />
+        <xs:attribute name="scale_button" type="xs:boolean" default="false"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\..\..\core\cgui\include\cgui\AlignmentType.h" open="1" top="0" tabpos="6">
+		<Cursor position="157" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cgui\include\cgui\Button.h" open="1" top="0" tabpos="33">
+		<Cursor position="1108" topLine="36" />
+	</File>
+	<File name="..\..\..\core\cgui\include\cgui\ButtonState.h" open="1" top="0" tabpos="42">
+		<Cursor position="122" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cgui\include\cgui\CheckBox.h" open="1" top="0" tabpos="22">
+		<Cursor position="376" topLine="10" />
+	</File>
+	<File name="..\..\..\core\cgui\include\cgui\ComboBox.h" open="1" top="0" tabpos="24">
+		<Cursor position="1359" topLine="36" />
+	</File>
+	<File name="..\..\..\core\cgui\include\cgui\EditBox.h" open="1" top="0" tabpos="34">
+		<Cursor position="561" topLine="9" />
+	</File>
+	<File name="..\..\..\core\cgui\include\cgui\GuiMain.h" open="0" top="0" tabpos="0">
+		<Cursor position="1251" topLine="35" />
+	</File>
+	<File name="..\..\..\core\cgui\include\cgui\GuiObject.h" open="1" top="0" tabpos="20">
+		<Cursor position="5278" topLine="138" />
+	</File>
+	<File name="..\..\..\core\cgui\include\cgui\GuiObjectView.h" open="1" top="0" tabpos="12">
+		<Cursor position="2764" topLine="81" />
+	</File>
+	<File name="..\..\..\core\cgui\include\cgui\TextBoxView.h" open="1" top="0" tabpos="11">
+		<Cursor position="169" topLine="1" />
+	</File>
+	<File name="..\..\..\core\cgui\include\cgui\Textbox.h" open="1" top="0" tabpos="1">
+		<Cursor position="2663" topLine="51" />
+	</File>
+	<File name="..\..\..\core\cgui\src\AnimateParams.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="33" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cgui\src\Button.cpp" open="1" top="1" tabpos="7">
+		<Cursor position="1761" topLine="76" />
+	</File>
+	<File name="..\..\..\core\cgui\src\CheckBox.cpp" open="1" top="0" tabpos="21">
+		<Cursor position="2007" topLine="76" />
+	</File>
+	<File name="..\..\..\core\cgui\src\CombinedCtrl.cpp" open="1" top="0" tabpos="39">
+		<Cursor position="1590" topLine="61" />
+	</File>
+	<File name="..\..\..\core\cgui\src\ComboBox.cpp" open="1" top="0" tabpos="23">
+		<Cursor position="5681" topLine="204" />
+	</File>
+	<File name="..\..\..\core\cgui\src\CtrlStyle.cpp" open="1" top="0" tabpos="40">
+		<Cursor position="321" topLine="7" />
+	</File>
+	<File name="..\..\..\core\cgui\src\Decorator.cpp" open="1" top="0" tabpos="27">
+		<Cursor position="4761" topLine="192" />
+	</File>
+	<File name="..\..\..\core\cgui\src\EditBox.cpp" open="1" top="0" tabpos="25">
+		<Cursor position="3989" topLine="159" />
+	</File>
+	<File name="..\..\..\core\cgui\src\FontLoader.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1222" topLine="45" />
+	</File>
+	<File name="..\..\..\core\cgui\src\Globals.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="2796" topLine="52" />
+	</File>
+	<File name="..\..\..\core\cgui\src\GuiMain.cpp" open="1" top="0" tabpos="26">
+		<Cursor position="3990" topLine="151" />
+	</File>
+	<File name="..\..\..\core\cgui\src\GuiNode.cpp" open="1" top="0" tabpos="35">
+		<Cursor position="2625" topLine="94" />
+	</File>
+	<File name="..\..\..\core\cgui\src\GuiObject.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="15096" topLine="660" />
+	</File>
+	<File name="..\..\..\core\cgui\src\GuiObjectCreator.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="6730" topLine="243" />
+	</File>
+	<File name="..\..\..\core\cgui\src\GuiObjectView.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="2493" topLine="130" />
+	</File>
+	<File name="..\..\..\core\cgui\src\GuiStyle.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1524" topLine="56" />
+	</File>
+	<File name="..\..\..\core\cgui\src\Image.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="3618" topLine="149" />
+	</File>
+	<File name="..\..\..\core\cgui\src\ListBox.cpp" open="1" top="0" tabpos="28">
+		<Cursor position="13172" topLine="527" />
+	</File>
+	<File name="..\..\..\core\cgui\src\ListBoxCell.cpp" open="1" top="0" tabpos="29">
+		<Cursor position="3561" topLine="140" />
+	</File>
+	<File name="..\..\..\core\cgui\src\ListBoxColumn.cpp" open="1" top="0" tabpos="30">
+		<Cursor position="13186" topLine="579" />
+	</File>
+	<File name="..\..\..\core\cgui\src\MessageSystem.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="9911" topLine="372" />
+	</File>
+	<File name="..\..\..\core\cgui\src\RenderParams.cpp" open="1" top="0" tabpos="36">
+		<Cursor position="954" topLine="31" />
+	</File>
+	<File name="..\..\..\core\cgui\src\ScrollPanel.cpp" open="1" top="0" tabpos="31">
+		<Cursor position="9026" topLine="370" />
+	</File>
+	<File name="..\..\..\core\cgui\src\TextBox.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="10679" topLine="0" />
+	</File>
+	<File name="..\..\..\core\cgui\src\TextBoxView.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="393" topLine="8" />
+	</File>
+	<File name="..\..\..\core\cgui\src\Texture.cpp" open="1" top="0" tabpos="37">
+		<Cursor position="469" topLine="10" />
+	</File>
+	<File name="..\..\..\core\cgui\src\TextureLoader.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="12124" topLine="350" />
+	</File>
+	<File name="..\..\..\core\cgui\src\ToolTipSystem.cpp" open="1" top="0" tabpos="32">
+		<Cursor position="168" topLine="3" />
+	</File>
+	<File name="..\..\..\core\cgui\src\Window.cpp" open="1" top="0" tabpos="38">
+		<Cursor position="534" topLine="23" />
+	</File>
+	<File name="postbuild.bat" open="0" top="0" tabpos="13">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="postbuildD.bat" open="0" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

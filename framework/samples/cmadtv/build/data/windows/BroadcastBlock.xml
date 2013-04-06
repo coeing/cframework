@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/panel.xsd"
+   name="BroadcastBlock" width="288" height="32">
+  <scaleimage name="ImgBackground" size_mode="stretch" top="2" right="2" bottom="2" left="2" bg_visible="false">
+    <topleft>
+      <state_normal bg_color="dcdcdc" />
+    </topleft>
+    <topcenter>
+      <state_normal bg_color="dcdcdc"/>
+    </topcenter>
+    <topright>
+      <state_normal bg_color="dcdcdc"/>
+    </topright>
+    <middleleft>
+      <state_normal bg_color="dcdcdc"/>
+    </middleleft>
+    <middlecenter>
+      <state_normal bg_color="b0b0b0"/>
+      <state_active bg_color="f09080"/>
+    </middlecenter>
+    <middleright>
+      <state_normal bg_color="000000"/>
+    </middleright>
+    <bottomleft>
+      <state_normal bg_color="000000"/>
+    </bottomleft>
+    <bottomcenter>
+      <state_normal bg_color="000000"/>
+    </bottomcenter>
+    <bottomright>
+      <state_normal bg_color="000000"/>
+    </bottomright>
+  </scaleimage>
+  <textbox name="TbTitle" offset_x="2" offset_y="2" size_mode="stretch" text="Broadcast" font_size="12" text_align_vertical="top" bg_visible="false" />
+</panel>
+
+

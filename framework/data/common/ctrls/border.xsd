@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+	<xs:annotation>
+		<xs:documentation xml:lang="DE">
+			CGui Border Schema.
+			Copyright 2007 Christian Oeing. Alle Rechte vorbehalten.
+		</xs:documentation>
+	</xs:annotation>
+	
+	<xs:element name="border" type="BorderType"/>
+
+	<xs:complexType name="BorderType">
+		<xs:complexContent>
+			<xs:extension base="CombinedType">
+				<xs:attribute name="type" type="xs:string" fixed="border"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+</xs:schema>
+	
+

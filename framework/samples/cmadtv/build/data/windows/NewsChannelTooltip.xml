@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/panel.xsd"
+   name="NewsChannelTooltip" width="158" height="44" bg_visible="false">
+  <panel name="Shadow" offset_x="6" offset_y="4" width="152" height="40" bg_color="0x000000" />
+  <panel name="Bg" width="154" height="40" bg_color="0x808080">
+    <textbox name="TbName" reference_attach_point="top" local_attach_point="top" offset_y="2" width="150" height="18" bg_color="0xdc2424" text_align_horizontal="left" text="Sundry" padding_left="12" />
+    <textbox name="TbPrice" attach_object="prev sibling" reference_attach_point="bottom" local_attach_point="top" width="150" height="18" bg_visible="false" text_align_horizontal="left" text="$10000" padding_left="12" />
+  </panel>
+</panel>

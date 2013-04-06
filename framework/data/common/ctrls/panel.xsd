@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://cframework.oeing.eu/schemas/ctrls"
+           targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+           elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+			CGui Panel Schema.
+			Copyright 2006 Christian Oeing. Alle Rechte vorbehalten.
+		</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./button.xsd"/>
+  <xs:include schemaLocation="./mesh.xsd"/>
+  <xs:include schemaLocation="./checkbox.xsd"/>
+  <xs:include schemaLocation="./editbox.xsd"/>
+  <xs:include schemaLocation="./listbox.xsd"/>
+  <xs:include schemaLocation="./combobox.xsd"/>
+  <xs:include schemaLocation="./scrollbar.xsd"/>
+  <xs:include schemaLocation="./scrollpanel.xsd"/>
+  <xs:include schemaLocation="./window.xsd"/>
+  <xs:include schemaLocation="./scaleimage.xsd"/>
+  <xs:complexType name="PanelType">
+    <xs:complexContent>
+      <xs:extension base="ObjectType">
+        <xs:sequence>
+          <xs:element name="state_normal"           type="StateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_highlight"        type="StateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_active"           type="StateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_active_highlight" type="StateType" minOccurs="0" maxOccurs="1"/>
+          <xs:element name="state_disabled"         type="StateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_modified"         type="StateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_information"      type="StateType" minOccurs="0" maxOccurs="1" />
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="object"		    type="ObjectType" />
+            <xs:element name="panel"		    type="PanelType" />
+            <xs:element name="window"		    type="WindowType" />
+            <xs:element name="button"		    type="ButtonType" />
+            <xs:element name="image"		    type="ImageType" />
+            <xs:element name="mesh"		      type="MeshType" />
+            <xs:element name="textbox"		  type="TextBoxType" />
+            <xs:element name="checkbox"     type="CheckBoxType"/>
+            <xs:element name="editbox"      type="EditBoxType" />
+            <xs:element name="listbox"      type="ListBoxType" />
+            <xs:element name="combobox"     type="ComboBoxType"/>
+            <xs:element name="scaleimage"   type="ScaleImageType" />
+            <xs:element name="scrollbar"    type="ScrollBarType"/>
+            <xs:element name="scrollpanel"  type="ScrollPanelType"/>
+          </xs:choice>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
+
+
+
+

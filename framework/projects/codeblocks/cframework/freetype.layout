@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\..\..\src\freetype\postbuild.bat" open="0" top="0" tabpos="5">
+		<Cursor position="46" topLine="0" />
+	</File>
+	<File name="..\..\..\src\freetype\postbuildd.bat" open="0" top="0" tabpos="4">
+		<Cursor position="50" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

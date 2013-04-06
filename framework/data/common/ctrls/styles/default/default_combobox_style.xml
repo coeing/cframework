@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<combobox_style xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls/styles ../combobox_style.xsd"
+   bar_height="18">
+  <editbox_style>
+    <image>
+      <state_normal bg_color="ff0000"/>
+    </image>
+    <textbox font="common/fonts/arial.ttf" font_size="10" text_align_horizontal="left"/>
+  </editbox_style>
+  <button_style ratio="1.125" button_type="toggle">
+    <image>
+      <state_normal texture="common/art/ctrls/buttons/windows_cb_normal.tif"/>
+      <state_active texture="common/art/ctrls/buttons/windows_cb_down.tif"/>
+    </image>
+  </button_style>
+  <listbox_style row_color1="ffffff"
+                 row_color2="ffffff"
+                 text_color1="000000"
+                 text_color2="000000"
+                 row_height="18"
+                 highlight_color="0a246a"
+                 highlight_text_color="ffffff"
+                 grid_inner_horiz_size="0"
+                 grid_inner_vert_size="0"
+                 grid_outer_size="1"
+                 grid_color="000000"
+                 cell_font="common/fonts/arial.ttf"
+                 cell_font_size="10" />
+</combobox_style>
+
+
+
+
+

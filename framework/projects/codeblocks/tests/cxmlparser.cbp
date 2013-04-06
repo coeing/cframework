@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cxmlparser" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="$(basepath)\build\cxmlparser\cxmlparserd" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="$(basepath)\build\cxmlparser" />
+				<Option object_output="$(basepath)\obj\cxmlparser\debug" />
+				<Option external_deps="$(basepath)\lib\libcofilesd.a;$(basepath)\lib\libtinyxmld.a;$(basepath)\lib\libxerces-c.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="cofilesd" />
+					<Add library="tinyxmld" />
+					<Add library="xerces-c_2_8D" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="$(basepath)\build\cxmlparser\cxmlparser" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="$(basepath)\build\cxmlparser" />
+				<Option object_output="$(basepath)\obj\cxmlparser\release" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="cofiles" />
+					<Add library="xerces-c_2_8" />
+					<Add library="tinyxml" />
+				</Linker>
+			</Target>
+			<Environment>
+				<Variable name="basepath" value="..\..\.." />
+				<Variable name="sourcepath" value="$(basepath)\tests\cxmlparser" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-mthreads" />
+			<Add directory="$(basepath)\include\stlport" />
+			<Add directory="$(basepath)\include" />
+		</Compiler>
+		<Linker>
+			<Add library="stlport.5.1.dll" />
+			<Add directory="$(basepath)\lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="$(sourcepath)\postbuild.bat $(basepath) $(project_name)" />
+		</ExtraCommands>
+		<Unit filename="..\..\..\tests\cxmlparser\data\test.xml" />
+		<Unit filename="..\..\..\tests\cxmlparser\main.cpp" />
+		<Unit filename="..\..\..\tests\cxmlparser\postbuild.bat" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

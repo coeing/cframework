@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gui_style xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls/styles ../../../common/ctrls/styles/gui_style.xsd">
+  <ctrl_style name="ButtonBackground" xml_file="button_background.xml"/>
+  <ctrl_style name="StdButton" default="true" xml_file="std_button.xml"/>
+  <ctrl_style name="BigButtonRed" xml_file="big_button_red.xml"/>
+  <ctrl_style name="BigButtonBlue" xml_file="big_button_blue.xml"/>
+  <ctrl_style name="StdEditBox" xml_file="std_editbox.xml"/>
+  <ctrl_style name="EditBoxLoadSave" xml_file="editbox_load_save.xml"/>
+  <ctrl_style name="SquareButtonBackground" xml_file="square_button_background.xml"/>
+  <ctrl_style name="ArrowButton" xml_file="arrow_button.xml"/>
+  <ctrl_style name="StdComboBox" xml_file="std_combobox.xml" />
+  <ctrl_style name="StdProgressBar" xml_file="std_progressbar.xml"/>
+  <ctrl_style name="StdListBox" xml_file="std_listbox.xml" />
+  <ctrl_style name="StdScrollBar" xml_file="std_scrollbar.xml" />
+  <ctrl_style name="StdScrollPanel" xml_file="std_scrollpanel.xml" />
+</gui_style>

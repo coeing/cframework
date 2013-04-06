@@ -1,0 +1,62 @@
+Allgemein:
+----------
+
+$(cframework) = Basis Verzeichnis des C-Frameworks
+
+stlport:
+--------
+
+STLPort liegt momentan nur in der bereits
+kompilierten Form vor.
+
+freetype:
+---------
+
+Freetype liegt momentan nur in der bereits
+kompilierten Form vor.
+
+libtiff:
+---------
+
+libtiff liegt momentan nur in der bereits
+kompilierten Form vor.
+
+tinyxml:
+--------
+
+Defines:
+- WIN32
+- DEBUG (bei Debug-Version)
+
+Include-Verzeichnisse:
+- $(cframework)/include/tinyxml
+
+cofiles:
+--------
+
+Defines:
+- WIN32
+- DEBUG (bei Debug-Version)
+
+Einstellungen:
+- Multithreaded (-mthreads, o.ä.)
+
+Include-Verzeichnisse:
+- $(cframework)/include/stlport
+- $(cframework)/include
+
+cgui:
+-----
+
+Defines:
+- WIN32
+- DEBUG (bei Debug-Version)
+
+Einstellungen:
+- Multithreaded (-mthreads, o.ä.)
+
+Include-Verzeichnisse:
+- $(cframework)/include/stlport
+- $(cframework)/include
+
+

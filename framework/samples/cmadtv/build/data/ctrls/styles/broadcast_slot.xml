@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button_style xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls/styles ../../../common/ctrls/styles/button_style.xsd"
+   width="144" height="24" text_align_horizontal="center" >
+  <state_normal bg_visible="true" bg_color="b0b0b0"/>
+  <state_active bg_visible="true" bg_color="d0ac00"/>
+  <scaleimage style="ButtonBackground"/>
+  <textbox padding_left="10"/>
+</button_style>
+
+
+
+
+

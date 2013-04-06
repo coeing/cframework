@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="chelloworld" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="$(basepath)\build\chelloworld\chelloworldd" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="$(basepath)\build\chelloworld" />
+				<Option object_output="$(basepath)\obj\chelloworld\debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="cofilesd" />
+					<Add library="tinyxmld" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="$(basepath)\build\chelloworld\chelloworld" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="$(basepath)\build\chelloworld" />
+				<Option object_output="$(basepath)\obj\chelloworld\release" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="cofiles" />
+					<Add library="tinyxml" />
+				</Linker>
+			</Target>
+			<Environment>
+				<Variable name="basepath" value="..\..\.." />
+				<Variable name="sourcepath" value="..\..\..\tests\chelloworld" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-mthreads" />
+			<Add directory="..\..\..\include\stlport" />
+			<Add directory="..\..\..\include" />
+		</Compiler>
+		<Linker>
+			<Add library="stlport.5.1.dll" />
+			<Add directory="..\..\..\lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="$(sourcepath)\postbuild.bat $(basepath)" />
+		</ExtraCommands>
+		<Unit filename="..\..\..\tests\chelloworld\main.cpp" />
+		<Unit filename="..\..\..\tests\chelloworld\postbuild.bat" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

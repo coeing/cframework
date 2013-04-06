@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="..\..\..\tests\ccofilestest\main.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="104" topLine="0" />
+	</File>
+	<File name="..\..\..\tests\ccofilestest\postbuild.bat" open="0" top="0" tabpos="0">
+		<Cursor position="38" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

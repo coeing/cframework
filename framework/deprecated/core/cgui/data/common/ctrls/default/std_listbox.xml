@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listbox xmlns=""
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="listbox.xsd" 
+		name="LbListBox" 
+		width="100" 
+		height="100" 
+		grid_size="1" 
+		bg_color="000000">
+</listbox>

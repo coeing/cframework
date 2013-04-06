@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scaleimage_style xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls/styles ../../../common/ctrls/styles/scaleimage_style.xsd"
+   top="2" right="2" bottom="2" left="2" bg_visible="false" >
+   <topleft>
+     <state_normal bg_color="dcdcdc"/>
+     <state_active bg_color="000000"/>
+   </topleft>
+   <topcenter>
+     <state_normal bg_color="dcdcdc"/>
+     <state_active bg_color="000000"/>
+   </topcenter>
+   <topright>
+     <state_normal bg_color="dcdcdc"/>
+     <state_active bg_color="000000"/>
+   </topright>
+   <middleleft>
+     <state_normal bg_color="dcdcdc"/>
+     <state_active bg_color="000000"/>
+   </middleleft>
+   <middlecenter>
+     <state_normal bg_visible="false"/>
+   </middlecenter>
+   <middleright>
+     <state_normal bg_color="000000"/>
+     <state_active bg_color="dcdcdc"/>
+   </middleright>
+   <bottomleft>
+     <state_normal bg_color="000000"/>
+     <state_active bg_color="dcdcdc"/>
+   </bottomleft>
+   <bottomcenter>
+     <state_normal bg_color="000000"/>
+     <state_active bg_color="dcdcdc"/>
+   </bottomcenter>
+   <bottomright>
+     <state_normal bg_color="000000"/>
+     <state_active bg_color="dcdcdc"/>
+   </bottomright>
+</scaleimage_style>
+
+
+
+

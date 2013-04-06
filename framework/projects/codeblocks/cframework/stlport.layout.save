@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\..\..\include\stlport\stl\_algobase.h" open="0" top="0" tabpos="0">
+		<Cursor position="4420" topLine="117" />
+	</File>
+	<File name="..\..\..\include\stlport\stl\_cstdlib.h" open="0" top="0" tabpos="14">
+		<Cursor position="4402" topLine="125" />
+	</File>
+	<File name="..\..\..\include\stlport\stl\_cstring.h" open="0" top="0" tabpos="13">
+		<Cursor position="629" topLine="7" />
+	</File>
+	<File name="..\..\..\include\stlport\stl\_map.h" open="0" top="0" tabpos="0">
+		<Cursor position="6431" topLine="165" />
+	</File>
+	<File name="..\..\..\include\stlport\stl\_threads.h" open="0" top="0" tabpos="16">
+		<Cursor position="24233" topLine="676" />
+	</File>
+	<File name="..\..\..\include\stlport\stl\_tree.h" open="0" top="0" tabpos="0">
+		<Cursor position="17903" topLine="503" />
+	</File>
+	<File name="..\..\..\include\stlport\stl\_vector.h" open="0" top="0" tabpos="4">
+		<Cursor position="6873" topLine="168" />
+	</File>
+	<File name="..\..\..\include\stlport\stl\config\_hpacc.h" open="0" top="0" tabpos="15">
+		<Cursor position="2212" topLine="0" />
+	</File>
+	<File name="..\..\..\include\stlport\stl\config\_sgi.h" open="0" top="0" tabpos="0">
+		<Cursor position="423" topLine="0" />
+	</File>
+	<File name="..\..\..\src\stlport\postbuild.bat" open="0" top="0" tabpos="12">
+		<Cursor position="53" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

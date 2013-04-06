@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls file:///C:/projects/co/cframework/core/cgui/data/common/ctrls/window.xsd"
+   name="MainMenuWindow" width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/MainMenuWindow/bg.png"/>
+  </image>
+  <textbox width="640" height="23" local_attach_point="center" reference_attach_point="top" offset_y="27" text="Wählen Sie einen Spieler aus" text_align_horizontal="center" text_align_vertical="middle" bg_visible="false"/>
+  <panel offset_x="56" offset_y="56" width="144" height="24">
+    <state_normal bg_color="dc2424"/>
+    <scaleimage size_mode="stretch" style="ButtonBackground"/>
+    <textbox size_mode="stretch" bg_visible="false" text="Mad-TV" padding_left="10"/>
+  </panel>
+  <editbox name="EbPlayer1"  style="StdEditBox" offset_x="56" offset_y="88" text="Archie">
+    <state_normal bg_color="dc2424"/>
+    <state_active bg_color="dc2424"/>
+  </editbox>
+  <button name="BtPlayer1"   style="StdButton" button_type="toggle" offset_x="56" offset_y="116" text="Computer" text_align_horizontal="left" >
+  </button>
+  <panel offset_x="248" offset_y="56" width="144" height="24">
+    <state_normal bg_color="40a040"/>
+    <scaleimage size_mode="stretch" style="ButtonBackground"/>
+    <textbox size_mode="stretch" bg_visible="false" text="Fun-TV" padding_left="10"/>
+  </panel>
+  <editbox name="EbPlayer2"  style="StdEditBox" offset_x="248" offset_y="88" text="Brian">
+    <state_normal bg_color="40a040"/>
+    <state_active bg_color="40a040"/>
+  </editbox>
+  <button name="BtPlayer2"   style="StdButton" button_type="toggle" offset_x="248" offset_y="116" text="Computer" text_align_horizontal="left" >
+  </button>
+  <panel offset_x="440" offset_y="56" width="144" height="24">
+    <state_normal bg_color="5490bc"/>
+    <scaleimage size_mode="stretch" style="ButtonBackground"/>
+    <textbox size_mode="stretch" bg_visible="false" text="Sun-TV" padding_left="10"/>
+  </panel>
+  <editbox name="EbPlayer3"  style="StdEditBox" offset_x="440" offset_y="88" text="Churchill">
+    <state_normal bg_color="5490bc"/>
+    <state_active bg_color="5490bc"/>
+  </editbox>
+  <button name="BtPlayer3"   style="StdButton" button_type="toggle" offset_x="440" offset_y="116" text="Computer" text_align_horizontal="left" >
+  </button>
+  <button name="BtEasy"      style="StdButton" button_type="toggle" offset_x="56" offset_y="152" text="Einfach" >
+  </button>
+  <button name="BtNormal"    style="StdButton" button_type="toggle" offset_x="248" offset_y="152" text="Normal" >
+  </button>
+  <button name="BtDifficult" style="StdButton" button_type="toggle" offset_x="440" offset_y="152" text="Schwer">
+  </button>
+  <button name="BtStart"   style="BigButtonRed" offset_x="48" offset_y="188" text="Neues Spiel" >
+  </button>
+  <button name="BtLoad"  style="BigButtonRed" offset_x="240" offset_y="188" text="Spiel laden" >
+  </button>
+  <button name="BtExit"  style="BigButtonBlue" offset_x="432" offset_y="188" text="Ende" >
+  </button>
+</window>
+
+
+
+

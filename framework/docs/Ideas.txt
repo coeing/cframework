@@ -1,0 +1,5 @@
+SDFont
+------
+Font implementation with signed distance field
+=> Better scale, less memory than ttf
+=> Better quality than bitmap fonts

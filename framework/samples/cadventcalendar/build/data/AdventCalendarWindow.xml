@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../common/ctrls/window.xsd"
+   width="1024" height="768" bg_color="0xaa1818ff">
+  <panel name="PnlCalendar" offset_x="50" offset_y="50" width="924" height="668" >
+    <image name="ImgCalendar" size_mode="stretch" bg_color="0x00009944">
+      <state_normal texture="data/images/rentier_glocke.png"/>
+    </image>
+  </panel>
+  <image name="ImgDoorTemplate" bg_color="0xff000044"/>
+  <textbox name="TbDoorTemplate" bg_color="0x2A7604ff" text="Day" text_align_horizontal="center"/>
+</window>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

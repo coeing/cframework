@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../../common/ctrls/panel.xsd"
+   name="TimeTooltip" width="138" height="72" bg_color="0x808080">
+  <panel name="PnlInner" width="134" height="68" bg_color="0xdcdcdc">
+    <textbox name="TbCashTitle" reference_attach_point="top" local_attach_point="top" size_mode_x="stretch" height="16" padding_left="4" text="Money:" bg_visible="false" />
+    <textbox name="TbCash" attach_object="prev sibling" reference_attach_point="bottom" local_attach_point="top" size_mode_x="stretch" height="16" padding_left="10" text="$ 0" bg_visible="false" />
+    <textbox name="TbCreditTitle" attach_object="prev sibling" reference_attach_point="bottom" local_attach_point="top" size_mode_x="stretch" height="16" padding_left="4" text="Credit:" bg_visible="false" />
+    <textbox name="TbCredit" attach_object="prev sibling" reference_attach_point="bottom" local_attach_point="top" size_mode_x="stretch" height="16" padding_left="10" text="$ 200000" bg_visible="false" />
+  </panel>
+</panel>

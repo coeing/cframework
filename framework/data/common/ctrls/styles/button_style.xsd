@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls/styles"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+      CGui Button Style Schema.
+      Copyright 2008 Christian Oeing. Alle Rechte vorbehalten.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./textbox_style.xsd"/>
+  <xs:include schemaLocation="./image_style.xsd"/>
+  <xs:include schemaLocation="./scaleimage_style.xsd"/>
+  <xs:complexType name="ButtonStyleType">
+    <xs:complexContent>
+      <xs:extension base="CtrlStyleType">
+        <xs:sequence>
+          <xs:choice>
+            <xs:element name="image"             type="ImageStyleType"         minOccurs="0" maxOccurs="1" />
+            <xs:element name="scaleimage"        type="ScaleImageStyleType"    minOccurs="0" maxOccurs="1" />
+          </xs:choice>
+          <xs:element name="textbox"             type="TextBoxStyleType"       minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="type"                fixed="button" />
+        <xs:attribute name="colored"             type="xs:boolean"/>
+        <xs:attribute name="button_type"         type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="button_style" type="ButtonStyleType"/>
+</xs:schema>
+
+
+
+
+
+
+
+
+
+
+
+

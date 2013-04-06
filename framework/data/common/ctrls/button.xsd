@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+			CGui Button Schema.
+			Copyright 2007 Christian Oeing. Alle Rechte vorbehalten.
+		</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./combined.xsd"/>
+  <xs:include schemaLocation="./image.xsd"/>
+  <xs:include schemaLocation="./textbox.xsd"/>
+  <xs:complexType name="ButtonStateType">
+    <xs:complexContent>
+      <xs:extension base="StateType">
+        <xs:attribute name="text_color"  type="xs:hexBinary" />
+        <xs:attribute name="texture"     type="xs:string"/>
+        <xs:attribute name="mask"        type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ButtonType">
+    <xs:complexContent>
+      <xs:extension base="CombinedType">
+        <xs:sequence>
+          <xs:element name="state_normal"           type="ButtonStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_highlight"        type="ButtonStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_active"           type="ButtonStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_active_highlight" type="ButtonStateType" minOccurs="0" maxOccurs="1"/>
+          <xs:element name="state_disabled"         type="ButtonStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_modified"         type="ButtonStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_information"      type="ButtonStateType" minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="text"                  type="xs:string"/>
+        <xs:attribute name="font_name"             type="xs:string"/>
+        <xs:attribute name="font_size"             type="xs:integer"/>
+        <xs:attribute name="text_align_horizontal" type="xs:string"/>
+        <xs:attribute name="text_align_vertical"   type="xs:string"/>
+        <xs:attribute name="button_type"           type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
+
+
+
+
+
+
+
+
+
+
+
+
+

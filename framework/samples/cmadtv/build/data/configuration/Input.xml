@@ -1,0 +1,35 @@
+<Input>
+
+  <Command identifier="close planning advert archiv">
+    <Mouse button="right" activation="first down" />
+  </Command>
+
+  <Command identifier="close planning broadcast archiv">
+    <Mouse button="right" activation="first down" />
+  </Command>
+
+  <Command identifier="close planning rack shelf">
+    <Mouse button="right" activation="first down" />
+  </Command>
+  
+  <Command identifier="debug speed pause">
+    <Key key="P" activation="first down" />
+  </Command>
+  
+  <Command identifier="debug speed 1">
+    <Key key="1" activation="first down" />
+  </Command>
+
+  <Command identifier="debug speed 2">
+    <Key key="2" activation="first down" />
+  </Command>
+
+  <Command identifier="debug speed 3">
+    <Key key="3" activation="first down" />
+  </Command>
+
+  <Command identifier="debug get money">
+    <Key key="m" activation="first down" />
+  </Command>
+
+</Input>

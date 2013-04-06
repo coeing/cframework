@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   width="224" height="212" reference_attach_point="top" local_attach_point="top" offset_y="16">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/ControlCenterWindow/bg.png"/>
+  </image>
+
+  <textbox name="TbFamily" offset_x="18" offset_y="38" width="188" height="18" text_align_horizontal="center" text="TV family" bg_visible="false" />
+  <button name="BtFamily" style="StdButton" attach_object="prev sibling" reference_attach_point="bottom" local_attach_point="top" width="64" height="20" button_type="toggle" text="Off">
+    <textbox name="theTextBox">
+      <state_normal text="Off"/>
+      <state_active text="On"/>
+    </textbox>
+    <state_normal bg_color="6cb8dc"/>
+    <state_active bg_color="dc2424"/>
+  </button>
+  
+  <textbox name="TbPicture" offset_x="18" offset_y="86" width="188" height="18" text_align_horizontal="center" text="TV picture" bg_visible="false" />
+  <button name="BtPicture" style="StdButton" attach_object="prev sibling" reference_attach_point="bottom" local_attach_point="top" width="64" height="20" button_type="toggle" text="Off">
+    <textbox name="theTextBox">
+      <state_normal text="Off"/>
+      <state_active text="On"/>
+    </textbox>
+    <state_normal bg_color="6cb8dc"/>
+    <state_active bg_color="dc2424"/>
+  </button>
+
+  <textbox name="TbMusic" offset_x="18" offset_y="134" width="188" height="18" text_align_horizontal="center" text="Music" bg_visible="false" />
+  <button name="BtMusic" style="StdButton" attach_object="prev sibling" reference_attach_point="bottom" local_attach_point="top" width="64" height="20" button_type="toggle" text="Off">
+    <textbox name="theTextBox">
+      <state_normal text="Off"/>
+      <state_active text="On"/>
+    </textbox>
+    <state_normal bg_color="6cb8dc"/>
+    <state_active bg_color="dc2424"/>
+  </button>
+  
+  <button name="BtSpeed1" style="StdButton" button_type="toggle" offset_x="16" offset_y="180" width="56" height="24">
+    <image name="ImgBg" reference_attach_point="center" local_attach_point="center" size_mode="content" texture="data/art/windows/ControlCenterWindow/speed1.png" bg_visible="false"/>
+  </button>
+  <button name="BtSpeed2" style="StdButton" button_type="toggle" attach_object="prev sibling" reference_attach_point="top right" offset_x="12" width="56" height="24">
+    <image name="ImgBg" reference_attach_point="center" local_attach_point="center" size_mode="content" texture="data/art/windows/ControlCenterWindow/speed2.png" bg_visible="false"/>
+  </button>
+  <button name="BtSpeed3" style="StdButton" button_type="toggle" attach_object="prev sibling" reference_attach_point="top right" offset_x="12" width="56" height="24">
+    <image name="ImgBg" reference_attach_point="center" local_attach_point="center" size_mode="content" texture="data/art/windows/ControlCenterWindow/speed3.png" bg_visible="false"/>
+  </button>
+  
+</window>
+
+
+
+
+

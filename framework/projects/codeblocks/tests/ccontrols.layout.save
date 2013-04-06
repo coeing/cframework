@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug Win32" />
+	<File name="..\..\..\tests\ccontrols\main.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="8280" topLine="222" />
+	</File>
+	<File name="..\..\..\tests\ccontrols\postbuild.bat" open="0" top="0" tabpos="1">
+		<Cursor position="278" topLine="0" />
+	</File>
+	<File name="..\..\..\tests\ccontrols\postbuildd.bat" open="1" top="0" tabpos="0">
+		<Cursor position="409" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/BossWindow/bg.png"/>
+  </image>
+
+  <image name="ImgBossShadow" offset_x="312" offset_y="24" width="314" height="120" bg_color="000000" />
+  <panel name="PnlBoss" offset_x="306" offset_y="20" width="314" height="120" bg_color="808080">
+    <textbox name="TbBoss" offset_x="2" offset_y="2" width="310" height="116" bg_color="dcdcdc" padding_top="18" padding_left="4" text="Kommen Sie zur Sache, Archie! Zeit ist Geld!" text_align_vertical="top" cut="word wrap" />
+  </panel>
+  
+  <image name="ImgPlayerShadow" offset_x="312" offset_y="152" width="314" height="72" bg_color="000000" />
+  <panel name="PnlPlayer" offset_x="306" offset_y="148" width="314" height="72" bg_color="808080">
+    <textbox name="TbPlayer" offset_x="2" offset_y="2" width="310" height="68" bg_color="b0b0b0" padding_top="18" padding_left="44" text="Guten Tag, Mister Raffer!" text_align_vertical="top" />
+    <button name="BtPrevChoice" style="ArrowButton" offset_x="6" offset_y="4" />
+    <button name="BtNextChoice" style="ArrowButton" offset_x="6" offset_y="36">
+      <scaleimage name="Background">
+        <image name="middlecenter" angle="180" />
+      </scaleimage>
+    </button>
+  </panel>
+</window>
+
+
+
+
+

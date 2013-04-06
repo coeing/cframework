@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="..\..\..\ext\glpng\src\glpng.c" open="0" top="0" tabpos="4">
+		<Cursor position="1027" topLine="14" />
+	</File>
+	<File name="postbuild.bat" open="0" top="0" tabpos="3">
+		<Cursor position="27" topLine="0" />
+	</File>
+	<File name="postbuildD.bat" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

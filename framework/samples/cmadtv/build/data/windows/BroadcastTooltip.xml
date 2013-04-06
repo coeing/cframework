@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/panel.xsd"
+   name="BroadcastTooltip" width="282" height="200" bg_visible="true" bg_color="808080">
+  <textbox name="TbTitle" offset_y="2" size_mode="custom" width="278" height="18" reference_attach_point="top" local_attach_point="top" text="Broadcast" padding_left="12" font_size="12" bg_visible="true" bg_color="0xdc2424ff" />
+  <textbox name="TbDescription" offset_y="20" size_mode_x="stretch" height="50" text="Description" cut="word wrap" text_align_vertical="top" padding_left="14" padding_right="14" bg_visible="false" font_size="11" />
+  <textbox name="TbGenre" offset_y="84" size_mode="custom" width="278" height="16" reference_attach_point="top" local_attach_point="top" text="Genre" padding_left="12" bg_visible="true" bg_color="0xb0b0b0ff" />
+  <textbox name="TbCountryYear" offset_y="100" size_mode_x="stretch" height="16" text="USA 1983" padding_left="14" bg_visible="false"/>
+  <progressbar name="PbBetty" style="StdProgressBar" offset_x="14" offset_y="118" initial_ratio="0.5"/>
+  <textbox name="TbBetty" offset_y="-2" width="180" height="16" attach_object="prev sibling" reference_attach_point="top right" text="Betty" padding_left="6" bg_visible="false" />
+  <progressbar name="PbCritics" style="StdProgressBar" offset_x="14" offset_y="134" initial_ratio="0.7" />
+  <textbox name="TbCritics" offset_y="-2" width="180" height="16" attach_object="prev sibling" reference_attach_point="top right" text="Kritik" padding_left="6" bg_visible="false" />
+  <textbox name="TbBlocks" offset_x="2" offset_y="148" size_mode="custom" width="139" height="16" text="0 Blocks" padding_left="12" bg_visible="true" bg_color="0xb0b0b0ff" />
+  <textbox name="TbPrice" offset_x="-2" offset_y="148" size_mode="custom" width="139" height="16" reference_attach_point="top right" local_attach_point="top right" text="$ 1000" padding_right="14" text_align_horizontal="right" bg_visible="true" bg_color="0xb0b0b0ff" />
+  <progressbar name="PbUp2date" style="StdProgressBar" offset_x="14" offset_y="166" initial_ratio="0.99" />
+  <textbox name="TbUp2date" offset_y="-2" width="180" height="16" attach_object="prev sibling" reference_attach_point="top right" text="Aktuell" padding_left="6" bg_visible="false" />
+  <textbox name="TbPlanned" offset_y="180" size_mode_x="stretch" height="16" text="(Programm)" padding_left="14" bg_visible="false" />
+</panel>
+
+

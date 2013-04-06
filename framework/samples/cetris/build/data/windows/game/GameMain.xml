@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../../../common/ctrls/window.xsd"
+		name="GameMainWindow" 
+		offset_x="100"
+		offset_y="50" 
+		width="600"
+		height="500" 
+		bg_visible="true" 
+		bg_color="cccccc" >
+	<panel name="InfoPanel" offset_x="300" offset_y="30" width="270" height="440" bg_visible="false" >
+		<button name="BtPause" style="default" offset_x="0" offset_y="30" width="120" height="25" text="Pause"/>
+		<button name="BtExit" style="default" offset_x="150" offset_y="30" width="120" height="25" text="Beenden"/>
+		
+		<textbox name="TbTimer" offset_x="0" offset_y="100" width="270" height="40" font_size="24" text="12:34:56" text_align_horizontal="center" text_align_vertical="middle" text_color="ffffff" bg_color="aa0000" />
+		
+		<textbox name="_TbPoints" offset_x="0" offset_y="150" width="120" height="25" font_size="16" text="Punkte:" text_align_horizontal="left" text_align_vertical="middle" text_color="ffffff" bg_color="000000" />
+		<textbox name="TbPoints" offset_x="150" offset_y="150" width="120" height="25" font_size="16" text="123456" text_align_horizontal="left" text_align_vertical="middle" text_color="ffffff" bg_color="000000" />
+		
+		<textbox name="_TbRows" offset_x="0" offset_y="180" width="120" height="25" font_size="16" text="Reihen:" text_align_horizontal="left" text_align_vertical="middle" text_color="ffffff" bg_color="000000" />
+		<textbox name="TbRows" offset_x="150" offset_y="180" width="120" height="25" font_size="16" text="999" text_align_horizontal="left" text_align_vertical="middle" text_color="ffffff" bg_color="000000" />
+
+		<textbox name="_TbLevel" offset_x="0" offset_y="210" width="120" height="25" font_size="16" text="Level:" text_align_horizontal="left" text_align_vertical="middle" text_color="ffffff" bg_color="000000" />
+		<textbox name="TbLevel" offset_x="150" offset_y="210" width="120" height="25" font_size="16" text="12:34:56" text_align_horizontal="left" text_align_vertical="middle" text_color="ffffff" bg_color="000000" />
+
+    <textbox name="_TbInfo" offset_x="0" offset_y="250" width="270" height="75" font_size="12" text="Bewegen: Pfeil links/rechts\nDrehen: A/S\nFallen: Pfeil runter" cut="wrap" text_align_horizontal="left" text_align_vertical="middle" text_color="ffffff" bg_color="000000" />
+
+    <image name="ImgTitle" offset_x="0" offset_y="345" width="270" height="95" texture="data\art\logo.tif" bg_color="ff0000" />
+	</panel>
+  <panel name="MainPanel" offset_x="30" offset_y="30" width="220" height="440" bg_color="000000" >
+    <image name="ImgBlockTemplate" width="10" height="10" bg_color="0xffffffff" />
+  </panel>
+  <textbox name="TbGameOver" offset_x="30" offset_y="210" width="220" height="80" font_size="24" text="Game Over" text_align_horizontal="center" text_align_vertical="middle" text_color="ffffff" bg_color="aa0000cc" />
+</window>

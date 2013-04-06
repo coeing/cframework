@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listbox_style xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls/styles file:///C:/projects/co/cframework/data/common/ctrls/styles/listbox_style.xsd"
+   highlight_color="0a246a"
+   row_color1="eeeeee" row_color2="cccccc"
+   text_color1="000000" text_color2="000000"
+   grid_color="000000"
+   grid_inner_horiz_size="0"
+   grid_inner_vert_size="0"
+   grid_outer_size="1"
+   highlight_text_color="ffffff">
+</listbox_style>
+
+
+
+
+

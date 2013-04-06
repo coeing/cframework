@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/panel.xsd"
+   size_mode="content" bg_visible="false">
+  <panel name="PnlShadow" offset_x="6" offset_y="4" width="330" height="72" bg_color="000000" />
+  <panel name="PnlTooltip" width="330" height="72" bg_color="808080">
+    <textbox name="TbTitle" offset_x="2" offset_y="2" width="326" height="18" bg_color="dc2424" padding_left="12" text="The Third Reich" />
+    <textbox name="TbGenre" attach_object="prev sibling" reference_attach_point="bottom left" width="326" height="16" bg_visible="false" padding_left="12" text="Cultural program" />
+    <textbox name="TbBlock" attach_object="prev sibling" reference_attach_point="bottom left" width="326" height="16" bg_visible="false" padding_left="12" text="1. block of 2" />
+    <textbox name="TbSpectators" attach_object="prev sibling" reference_attach_point="bottom left" width="326" height="18" bg_color="b0b0b0" padding_left="12" text="0,70 million (10%)" />
+  </panel>
+</panel>
+
+
+
+
+

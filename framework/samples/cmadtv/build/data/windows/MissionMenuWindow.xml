@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   name="MissionMenuWindow" width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/MissionMenuWindow/bg.png"/>
+  </image>
+
+  <panel offset_x="56" offset_y="27" width="144" height="24">
+    <state_normal bg_color="dc2424"/>
+    <scaleimage size_mode="stretch" style="ButtonBackground"/>
+    <textbox size_mode="stretch" bg_visible="false" text="Name:" padding_left="10"/>
+  </panel>
+  <editbox name="EbPlayer1"  style="StdEditBox" offset_x="56" offset_y="54" text="Archie">
+    <state_normal bg_color="dc2424"/>
+    <state_active bg_color="dc2424"/>
+  </editbox>
+  <button name="BtEasy"      style="StdButton" button_type="toggle" offset_x="56" offset_y="96" text="Einfach" >
+  </button>
+  <button name="BtNormal"    style="StdButton" button_type="toggle" offset_x="56" offset_y="124" text="Normal" >
+  </button>
+  <button name="BtDifficult" style="StdButton" button_type="toggle" offset_x="56" offset_y="152" text="Schwer">
+  </button>
+  <panel offset_x="248" offset_y="27" width="144" height="24">
+    <state_normal bg_color="40a040"/>
+    <scaleimage size_mode="stretch" style="ButtonBackground"/>
+    <textbox size_mode="stretch" bg_visible="false" text="Mission:" padding_left="10"/>
+  </panel>
+ 
+  <scrollpanel name="ScrollLbMissions" offset_x="248" offset_y="54" width="144" height="122">
+    <scrollbar_vert style="StdScrollBar"/>
+    <listbox name="LbMissions" style="StdListBox" width="124">
+      <column name="ColMission" />
+    </listbox>
+  </scrollpanel>
+  <panel offset_x="440" offset_y="27" width="144" height="24">
+    <state_normal bg_color="5490bc"/>
+    <scaleimage size_mode="stretch" style="ButtonBackground"/>
+    <textbox size_mode="stretch" bg_visible="false" text="Ziele:" padding_left="10"/>
+  </panel>
+  <panel offset_x="440" offset_y="54" width="144" height="122">
+    <state_normal bg_color="b0b0b0"/>
+    <scaleimage size_mode="stretch" style="ButtonBackground"/>
+    <textbox name="TbMissionDesc" size_mode="stretch" bg_visible="false" text="Bla Bla Bla" font_size="10" text_align_vertical="top" padding_left="5" cut="word wrap"/>
+  </panel>
+  <button name="BtStart"   style="BigButtonRed" offset_x="48" offset_y="188" text="Neues Spiel" >
+  </button>
+  <button name="BtLoad"  style="BigButtonRed" offset_x="240" offset_y="188" text="Spiel laden" >
+  </button>
+  <button name="BtExit"  style="BigButtonBlue" offset_x="432" offset_y="188" text="Ende" >
+  </button>
+</window>
+
+
+
+

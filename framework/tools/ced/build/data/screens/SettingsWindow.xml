@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../../common/ctrls/window.xsd"
+    name="SettingsWindow" 
+		width="600"
+		height="400" 
+    local_attach_point="center"
+    reference_attach_point="center"
+		bg_color="0xccccccff" >
+  <panel width="580" height="380" local_attach_point="center" reference_attach_point="center">
+    <button name="BtCancel" style="DefaultButton" width="100" height="25" offset_x="-5" offset_y="-5" local_attach_point="bottom right" reference_attach_point="bottom right" text="Cancel"/>
+    <button name="BtOk"     style="DefaultButton" width="100" height="25" offset_x="-5" attach_object="prev sibling" local_attach_point="right" reference_attach_point="left" text="OK"/>
+  </panel>
+</window>
+
+
+

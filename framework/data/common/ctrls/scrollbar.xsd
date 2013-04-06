@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">	
+	<xs:annotation>
+		<xs:documentation xml:lang="DE">
+			CGui ScrollBar Schema.
+			Copyright 2007 Christian Oeing. Alle Rechte vorbehalten.
+		</xs:documentation>
+	</xs:annotation>
+  <xs:include schemaLocation="./button.xsd"/>
+	<xs:complexType name="SubCtrlType">
+		<xs:attribute name="type" type="xs:string" use="required"/>
+	</xs:complexType>	
+	<xs:complexType name="BarType">
+		<xs:attribute name="bg_transparent" type="xs:boolean" default="false"/>
+		<xs:attribute name="bg_color" type="xs:hexBinary" default="ff0000"/>
+		<xs:attribute name="text" type="xs:string" default=""/>
+		<xs:attribute name="font" type="xs:string" default="fonts/arial.ttf"/>
+		<xs:attribute name="font_size" type="xs:integer" default="16"/>
+		<xs:attribute name="color_normal"		type="xs:hexBinary" default="000000" />
+		<xs:attribute name="color_not_active" type="xs:hexBinary" default="222222"/>
+		<xs:attribute name="color_disabled" type="xs:hexBinary" default="999999"/>
+		<xs:attribute name="text_align_horizontal" type="xs:string" default="center"/>
+		<xs:attribute name="text_align_vertical" type="xs:string" default="middle"/>
+		<xs:attribute name="texture" type="xs:string" default=""/>
+	</xs:complexType>	
+	<xs:complexType name="ScrollBarType">
+    <xs:complexContent>
+      <xs:extension base="CombinedType">
+        <xs:sequence>
+          <xs:element name="button_up"	  type="ButtonType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="button_down"  type="ButtonType" minOccurs="0" maxOccurs="1"/>
+          <xs:element name="bar_bg"		    type="ImageType"  minOccurs="0" maxOccurs="1" />
+          <xs:element name="bar"			    type="BarType"	  minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="button_ration" type="xs:float" default="1.0"/>
+        <xs:attribute name="bg_transparent" type="xs:boolean" default="true"/>
+      </xs:extension>
+    </xs:complexContent>
+	</xs:complexType>
+  <xs:element name="scrollbar" type="ScrollBarType"/>
+</xs:schema>
+
+
+

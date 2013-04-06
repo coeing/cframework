@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button_style xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls/styles file:///C:/projects/co/cframework/core/cgui/data/common/ctrls/styles/button_style.xsd"
+   button_type="toggle">
+  <img_normal   texture="common/art/ctrls/buttons/checkbox_square_normal.tif" bg_color="ff0000ff"/>
+  <img_disabled texture="common/art/ctrls/buttons/checkbox_square_normal.tif" bg_color="ffff00ff"/>
+  <img_down     texture="common/art/ctrls/buttons/checkbox_square_down.tif"   bg_color="00ff00ff"/>
+  <textbox/>
+</button_style>
+
+
+
+

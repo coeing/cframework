@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/StatsImageWindow/bg.png"/>
+  </image>
+
+  <panel name="PnlBar1" style="data/windows/StatsImageBar.xml" style_location="file" offset_x="228" offset_y="32">
+    <panel name="PnlBar">
+      <image name="ImgColor" bg_color="0xdc2424" />
+    </panel>
+  </panel>
+  <panel name="PnlBar2" style="data/windows/StatsImageBar.xml" style_location="file" offset_x="348" offset_y="32">
+    <panel name="PnlBar">
+      <image name="ImgColor" bg_color="0x40a040" />
+    </panel>
+  </panel>
+  <panel name="PnlBar3" style="data/windows/StatsImageBar.xml" style_location="file" offset_x="468" offset_y="32">
+    <panel name="PnlBar">
+      <image name="ImgColor" bg_color="0x5468a0" />
+    </panel>
+  </panel>
+
+  <button name="BtRatings" style="StdButton" offset_x="24" offset_y="140" width="96" height="22" text="Ratings" />
+</window>
+
+
+
+
+

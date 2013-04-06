@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../../common/ctrls/window.xsd"
+   width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/bg.png"/>
+  </image>
+  <image name="ImgDealer" offset_x="10" offset_y="8" width="150" height="176" bg_visible="false">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/dealer.png" />
+  </image>
+  <image name="ImgBroadcast10" offset_x="318" offset_y="120" width="28" height="52" bg_visible="false">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast10.png"/>
+  </image>
+  <image name="ImgBroadcast9" offset_x="302" offset_y="120" width="32" height="54" bg_visible="false">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast9.png"/>
+  </image>
+  <image name="ImgBroadcast8" offset_x="284" offset_y="120" width="36" height="58" bg_visible="false">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast8.png"/>
+  </image>
+  <image name="ImgBroadcast7" offset_x="272" offset_y="122" width="32" height="60" bg_visible="false">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast7.png"/>
+  </image>
+  <image name="ImgBroadcast6" offset_x="252" offset_y="124" width="32" height="62" bg_visible="false">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast6.png"/>
+  </image>
+  <image name="ImgBroadcast5" offset_x="238" offset_y="126" width="30" height="64" bg_visible="false">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast5.png"/>
+  </image>
+  <image name="ImgBroadcast4" offset_x="218" offset_y="128" width="34" height="66" bg_visible="false">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast4.png"/>
+  </image>
+  <image name="ImgBroadcast3" offset_x="198" offset_y="130" width="38" height="66" bg_visible="false">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast3.png"/>
+  </image>
+  <image name="ImgBroadcast2" offset_x="184" offset_y="130" width="32" height="70" bg_visible="false">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast2.png"/>
+  </image>
+  <image name="ImgBroadcast1" offset_x="162" offset_y="132" width="34" height="72" bg_visible="false">
+    <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast1.png"/>
+  </image>
+
+  <panel name="PnlBag" offset_x="436" offset_y="48" width="140" height="156" bg_visible="false">
+    <image name="ImgBg" size_mode="stretch" bg_visible="false">
+      <state_normal texture="data/art/misc/bag.png"/>
+    </image>
+    <image name="ObjBroadcastAnchor1" offset_x="12" offset_y="16" />
+    <image name="ObjBroadcastAnchor2" offset_x="12" offset_y="76" />
+    <image name="ObjBroadcastTemplate" attach_object="prev sibling" reference_attach_point="top right" width="18" height="58" bg_visible="false">
+      <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast_drag_object.png"/>      
+    </image>
+  </panel>
+</window>
+
+
+
+
+

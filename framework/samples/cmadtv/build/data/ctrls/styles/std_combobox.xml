@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<combobox_style xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls/styles ../../../common/ctrls/styles/combobox_style.xsd"
+   width="144" height="24"
+   bar_height="24">
+  <editbox name="theEditBox" style="StdEditBox" size_mode_y="stretch" />
+  <button name="theListButton" style="ArrowButton" local_attach_point="right" reference_attach_point="right" width="24" height="24" button_type="toggle">
+    <scaleimage name="Background">
+      <image name="middlecenter" angle="180" />
+    </scaleimage>
+    <state_normal bg_color="a0d8f0" />
+  </button>
+  <listbox name="theDropDownList" size_mode_y="content" style="StdListBox">
+    <column />
+  </listbox>
+</combobox_style>
+
+
+
+
+

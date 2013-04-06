@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button xmlns=""
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="button.xsd" >
+	<img_normal texture="common/art/ctrls/buttons/checkbox_square_normal.tif" bg_transparent="false" bg_color="ff0000"/>
+	<img_active texture="common/art/ctrls/buttons/checkbox_square_normal.tif" bg_transparent="false" bg_color="ff00ff"/>
+	<img_disabled texture="common/art/ctrls/buttons/checkbox_square_normal.tif" mask="common/art/ctrls/buttons/trans_button_mask.tif"/>
+	<img_down texture="common/art/ctrls/buttons/checkbox_square_down.tif" bg_transparent="false" bg_color="00ff00"/>
+	<textbox visible="false"/>
+</button>
+

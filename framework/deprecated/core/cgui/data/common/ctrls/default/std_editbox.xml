@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editbox xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../editbox.xsd">
+	<img_normal bg_color="0xffffffff"></img_normal>
+	<textbox></textbox>
+	<caret></caret>
+</editbox>

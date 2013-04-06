@@ -1,0 +1,18 @@
+#ifndef CGUI_BUTTONSTATES_H
+#define CGUI_BUTTONSTATES_H
+
+namespace CGui
+{
+	/* DEPRECATED
+    enum ButtonState
+	{
+		BT_STATE_UNDEFINED,
+		BT_STATE_NORMAL,
+		BT_STATE_ACTIVE,
+		BT_STATE_DISABLED,
+		BT_STATE_DOWN,
+		NUM_BT_STATES
+	};*/
+}
+
+#endif

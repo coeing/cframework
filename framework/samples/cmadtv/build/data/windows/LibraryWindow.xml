@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/LibraryWindow/bg.png"/>
+  </image>
+
+  <panel name="ObjLibrarian" offset_x="466" offset_y="20" width="88" height="94" bg_visible="false" />
+
+  <panel name="PnlRackShelf" offset_x="314" offset_y="98" width="166" height="94" bg_visible="false">
+    <image name="ObjBroadcastAnchor" offset_x="6"/>
+    <image name="ObjBroadcastTemplate" attach_object="prev sibling" reference_attach_point="top right" width="18" height="58" bg_visible="false">
+      <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast_drag_object.png"/>
+    </image>
+    <panel name="PnlGenre" offset_x="8" offset_y="66" width="154" height="24" bg_color="808080">
+      <textbox name="TbGenre" offset_x="2" offset_y="2" width="150" height="20" bg_color="dcdcdc" padding_left="4" />
+    </panel>
+  </panel>
+  
+  <panel name="PnlBag" offset_x="36" offset_y="80" size_mode="content" bg_visible="false">
+    <image name="ImgBg" size_mode="content" bg_visible="false">
+      <state_normal texture="data/art/windows/LibraryWindow/bag.png"/>
+    </image>
+    <image name="ObjBroadcastAnchor1" offset_x="12" offset_y="16" />
+    <image name="ObjBroadcastAnchor2" offset_x="102" offset_y="16" />
+    <image name="ObjBroadcastTemplate" attach_object="prev sibling" reference_attach_point="top right" width="18" height="58" bg_visible="false">
+      <state_normal texture="data/art/windows/BroadcastDealerWindow/broadcast_drag_object.png"/>      
+    </image>
+  </panel>
+</window>
+
+
+
+
+

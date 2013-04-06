@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../../common/ctrls/panel.xsd"
+   name="SpectatorsTooltip" width="238" height="108" bg_visible="false">
+  <image name="ImgBackground" size_mode="stretch" texture="data/art/windows/InfoWindow/spectators_tooltip_bg.png" bg_visible="false" />
+  <textbox name="TbMaxViewersTitle" offset_x="2" offset_y="4" size_mode="custom" width="230" height="16" text="Maximum viewers:" padding_left="18" font_size="12" bg_visible="false" />
+  <textbox name="TbMaxViewers" offset_x="2" offset_y="20" size_mode="custom" width="230" height="16" text="N/A" padding_left="18" font_size="12" bg_color="0xb0b0b0" />
+  <textbox name="TbRatingTitle" offset_x="2" offset_y="36" size_mode="custom" width="230" height="16" text="Current rating:" padding_left="18" font_size="12" bg_visible="false" />
+  <textbox name="TbRating" offset_x="2" offset_y="52" size_mode="custom" width="230" height="16" text="N/A" padding_left="18" font_size="12" bg_color="0xb0b0b0" />
+  <textbox name="TbNextAdvertTitle" offset_x="2" offset_y="68" size_mode="custom" width="230" height="16" text="Next advert:" padding_left="18" font_size="12" bg_visible="false" />
+  <textbox name="TbNextAdvert" offset_x="2" offset_y="84" size_mode="custom" width="230" height="16" text="N/A" padding_left="18" font_size="12">
+    <state_normal bg_color="0xb0b0b0" />
+    <state_active bg_color="0xdc2424" />
+  </textbox>
+</panel>

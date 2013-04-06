@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   name="AdvertBlock" width="128" height="32">
+  <image name="ImgBackground" size_mode="stretch">
+    <state_normal texture="data/art/windows/PlanningWindow/advert_block.tif"/>
+    <state_active texture="data/art/windows/PlanningWindow/advert_block_active.tif"/>
+  </image>
+  <textbox name="TbName" offset_x="2" offset_y="0" size_mode="stretch" text="Advert" font_size="10" text_align_vertical="top" bg_visible="false" />
+  <textbox name="TbSubText" offset_x="2" offset_y="14" size_mode="stretch" text="---" font_size="10" text_align_vertical="top" bg_visible="false" />
+</panel>
+
+

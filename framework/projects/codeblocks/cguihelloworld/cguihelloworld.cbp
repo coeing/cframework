@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cguihelloworld" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\cguihelloworldD" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="$(BASEPATH)\build" />
+				<Option object_output="obj\Debug\" />
+				<Option external_deps="$(CFRAMEWORK)/core/cofiles/lib/libcofilesD.a;$(CFRAMEWORK)/core/cgui/lib/libcguiD.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="cguiD" />
+					<Add library="glpngD" />
+					<Add library="cofilesD" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="postbuildD.bat $(BASEPATH) $(CFRAMEWORK)" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\cguihelloworld" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="$(BASEPATH)\build" />
+				<Option object_output="obj\Release\" />
+				<Option external_deps="$(CFRAMEWORK)/core/cofiles/lib/libcofiles.a;$(CFRAMEWORK)/core/cgui/lib/libcgui.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="cgui" />
+					<Add library="glpng" />
+					<Add library="cofiles" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="postbuild.bat $(BASEPATH) $(CFRAMEWORK)" />
+				</ExtraCommands>
+			</Target>
+			<Environment>
+				<Variable name="CFRAMEWORK" value="../../.." />
+				<Variable name="BASEPATH" value="../../../samples/cguihelloworld" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-mthreads" />
+			<Add directory="$(CFRAMEWORK)\ext\stlport\stlport" />
+			<Add directory="$(CFRAMEWORK)\core\cofiles\include" />
+			<Add directory="$(CFRAMEWORK)\core\cgui\include" />
+		</Compiler>
+		<Linker>
+			<Add library="freetype.dll" />
+			<Add library="tiff.dll" />
+			<Add library="glu32" />
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="uuid" />
+			<Add library="oleaut32" />
+			<Add library="gdi32" />
+			<Add library="xerces-c" />
+			<Add library="stlport.5.1.dll" />
+			<Add directory="$(CFRAMEWORK)\ext\stlport\lib" />
+			<Add directory="$(CFRAMEWORK)\ext\xercesc\lib" />
+			<Add directory="$(CFRAMEWORK)\core\cofiles\lib" />
+			<Add directory="$(CFRAMEWORK)\ext\freetype2\lib" />
+			<Add directory="$(CFRAMEWORK)\ext\glpng\lib" />
+			<Add directory="$(CFRAMEWORK)\ext\libtiff\lib" />
+			<Add directory="$(CFRAMEWORK)\core\cgui\lib" />
+		</Linker>
+		<Unit filename="postbuild.bat">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="postbuildD.bat">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="..\..\..\samples\cguihelloworld\src\main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

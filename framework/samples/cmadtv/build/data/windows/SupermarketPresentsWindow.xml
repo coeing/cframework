@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/SupermarketWindow/bg.png"/>
+  </image>
+
+  <panel name="PnlBag" offset_x="36" offset_y="128" width="92" height="76" bg_visible="false">
+    <image name="ImgBg" size_mode="stretch" bg_visible="false" texture="data/art/windows/SupermarketWindow/bag.png"/>
+    <panel name="ObjPresent" style="data/windows/PresentObject.xml" style_location="file" offset_x="12" offset_y="16">
+      <textbox name="TbPrice" visible="false" />
+    </panel>
+  </panel>
+
+  <image name="ImgPresentsBoxShadow" offset_x="168" offset_y="8" width="456" height="184" bg_color="000000" />
+  <panel name="PnlPresentsOuterBox" offset_x="162" offset_y="4" width="458" height="184" bg_color="808080">
+    <panel name="PnlPresentsBox" offset_x="2" offset_y="2" width="454" height="180" bg_color="dcdcdc">
+      <textbox name="TbPresentsTitle" offset_y="6" size_mode_x="stretch" height="16" padding_left="12" bg_visible="false" text="Our catalog with presents" />
+      <image name="ObjPresentAnchor1" offset_x="12" offset_y="26" />
+      <image name="ObjPresentAnchor2" offset_x="12" offset_y="98" />
+      <panel name="ObjPresentTemplate" style="data/windows/PresentObject.xml" style_location="file" attach_object="prev sibling" reference_attach_point="top right" offset_x="16" /> 
+    </panel>
+  </panel>
+  
+</window>
+
+
+
+
+

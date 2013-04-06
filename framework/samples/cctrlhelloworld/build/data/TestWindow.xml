@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls http://cframework.oeing.eu/schemas/ctrls/window.xsd"
+   width="1024" height="768" bg_color="888888ff">
+
+  <image name="ImgTest1" offset_x="0" offset_y="0" local_attach_point="top" reference_attach_point="top" width="471" height="95" bg_color="000000ff" texture="data/logo.png"/>
+  <textbox name="TbTest1" style="DefaultTextBox" offset_x="0" offset_y="0" attach_object="prev sibling" local_attach_point="top" reference_attach_point="bottom" width="471" height="30" text="Hello World!" text_align_horizontal="center" font_size="20" bg_color="ccccccff"/>
+  <panel name="PnlControl" size_mode="children" offset_x="-20" offset_y="0" local_attach_point="right" reference_attach_point="right" bg_visible="false">
+    <button name="BtUp" style="DefaultButton" offset_x="100" offset_y="0" text="Up"/>
+    <button name="BtDown" style="DefaultButton" offset_x="100" offset_y="200" text="Down"/>
+    <button name="BtLeft" style="DefaultButton" offset_x="0" offset_y="100" text="Left"/>
+    <button name="BtRight" style="DefaultButton" offset_x="200" offset_y="100" text="Right"/>
+  </panel>
+  <button name="BtExit" style="DefaultButton" local_attach_point="bottom right" reference_attach_point="bottom right" offset_x="0" offset_y="0" text="Exit"/>
+  
+  <listbox name="LbTest1" style="DefaultListBox" offset_x="20" offset_y="0" local_attach_point="left" reference_attach_point="left" width="300" height="200">
+    <column name="ColTest1" column_header="Column1" width="100"/>
+    <column name="ColTest2" column_header="Column2" width="100"/>
+  </listbox>
+  <checkbox name="ChkChgHighlight" style="DefaultCheckBox" offset_x="300" offset_y="300"/>
+</window>

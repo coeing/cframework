@@ -1,0 +1,25 @@
+#include "cgui/Renderer/Renderer.h"
+
+using namespace CGui;
+
+///////////////////////////////////////////////////////////////////////////////
+///
+/// Renderer
+///
+///////////////////////////////////////////////////////////////////////////////
+
+Renderer::Renderer()
+{
+}
+
+Renderer::~Renderer()
+{
+}
+        
+void Renderer::PreRender()
+{
+}
+
+void Renderer::PostRender()
+{
+}

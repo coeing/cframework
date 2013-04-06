@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cetris" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="Debug Win32\cetrisD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug Win32" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="..\cetris\include" />
+					<Add directory="..\cctrl\include" />
+					<Add directory="..\clib\include" />
+					<Add directory="..\cofiles\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\cetris\include" />
+					<Add directory="..\cctrl\include" />
+					<Add directory="..\clib\include" />
+					<Add directory="..\cofiles\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="cctrlD" />
+					<Add library="clibD" />
+					<Add library="cofilesD" />
+					<Add library="user32" />
+					<Add library="glut32" />
+					<Add library="glaux" />
+					<Add library="oleaut32" />
+					<Add library="gdi32" />
+					<Add directory="..\cctrl\lib" />
+					<Add directory="..\clib\lib" />
+					<Add directory="..\cofiles\lib" />
+					<Add directory="..\glut\lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="PostBuildD.bat" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Release Win32\cetris" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release Win32" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add directory="..\cetris\include" />
+					<Add directory="..\cctrl\include" />
+					<Add directory="..\clib\include" />
+					<Add directory="..\cofiles\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\cetris\include" />
+					<Add directory="..\cctrl\include" />
+					<Add directory="..\clib\include" />
+					<Add directory="..\cofiles\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="cctrl" />
+					<Add library="clib" />
+					<Add library="cofiles" />
+					<Add library="user32" />
+					<Add library="oleaut32" />
+					<Add library="gdi32" />
+					<Add library="glut32" />
+					<Add library="glaux" />
+					<Add directory="..\cctrl\lib" />
+					<Add directory="..\clib\lib" />
+					<Add directory="..\cofiles\lib" />
+					<Add directory="..\glut\lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="PostBuildR.bat" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="PostBuildD.bat" />
+		<Unit filename="PostBuildR.bat" />
+		<Unit filename="src\Block.cpp" />
+		<Unit filename="include\cetris\Block.h" />
+		<Unit filename="src\BlockManager.cpp" />
+		<Unit filename="include\cetris\BlockManager.h" />
+		<Unit filename="src\Figure.cpp" />
+		<Unit filename="include\cetris\Figure.h" />
+		<Unit filename="src\Game.cpp" />
+		<Unit filename="include\cetris\Game.h" />
+		<Unit filename="src\HighscoreList.cpp" />
+		<Unit filename="include\cetris\HighscoreList.h" />
+		<Unit filename="src\OneGame.cpp" />
+		<Unit filename="include\cetris\OneGame.h" />
+		<Unit filename="src\CetrisApp.cpp" />
+		<Unit filename="include\cetris\CetrisApp.h" />
+		<Unit filename="src\main.cpp" />
+		<Unit filename="..\..\data\screens\HighscoreScreen.xml" />
+		<Unit filename="..\..\data\screens\MainMenu.xml" />
+		<Unit filename="src\GameMain.cpp" />
+		<Unit filename="include\cetris\GameMain.h" />
+		<Unit filename="src\HighscoreScreen.cpp" />
+		<Unit filename="include\cetris\HighscoreScreen.h" />
+		<Unit filename="src\MainMenu.cpp" />
+		<Unit filename="include\cetris\MainMenu.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

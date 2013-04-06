@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../../common/ctrls/window.xsd"
+   offset_x="347" offset_y="16" width="272" height="224">
+  <image size_mode="stretch" bg_visible="false">
+    <state_normal texture="data/art/windows/PlanningAdvertContractsWindow/bg.tif"/>
+  </image>
+  <textbox name="TbCaption" offset_y="2" reference_attach_point="top" local_attach_point="top" width="256" height="18" text="Vorrätige Werbespots:" bg_visible="false" />
+  <image name="ObjAdvertsAnchor" offset_x="8" offset_y="20" />
+  <panel name="PnlTemplateAdvert" width="256" height="20" attach_object="prev sibling" reference_attach_point="bottom left" bg_visible="false">
+    <image name="ImgBg" size_mode="stretch" texture="data/art/windows/PlanningAdvertContractsWindow/contract_bg.png" bg_visible="false"/>
+    <textbox name="TbName" padding_left="2" size_mode="stretch" bg_visible="false" text="Advert" />
+  </panel>
+</window>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkbox_style xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls/styles ../checkbox_style.xsd"
+   height="20" bg_color="ffffffff" scale_button="true">
+  <button_style width="20" height="20" ratio="1.0">
+    <image>
+      <state_normal texture="common/art/ctrls/buttons/checkbox_square_normal.tif" bg_color="0xff0000ff" bg_visible="true"/>
+      <state_active texture="common/art/ctrls/buttons/checkbox_square_down.tif"   bg_color="0x00ff00ff"/>
+    </image>
+  </button_style>
+  <textbox_style text_align_horizontal="left" text_align_vertical="top"/>
+</checkbox_style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

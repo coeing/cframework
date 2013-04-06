@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   name="ConnectMenuWindow" width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/MainMenuWindow/bg.png"/>
+  </image>
+  <textbox width="640" height="23" local_attach_point="center" reference_attach_point="top" offset_y="27" text="Connect to server" text_align_horizontal="center" text_align_vertical="middle" bg_visible="false"/>
+
+  <panel size_mode="content" offset_y="56" local_attach_point="top" reference_attach_point="top" bg_visible="false">
+    <textbox offset_y="0" width="144" height="24" bg_visible="false" text="Server:"/>
+    <combobox name="CbServer"  style="StdComboBox" offset_x="100" offset_y="0" text="localhost" />
+    <textbox offset_y="34" width="144" height="24" bg_visible="false" text="Login:"/>
+    <editbox name="EbName"  style="StdEditBox" offset_x="100" offset_y="34" text="Archie" />
+    <textbox offset_y="68" width="144" height="24" bg_visible="false" text="Color:"/>
+    <editbox name="EbColor"  style="StdEditBox" offset_x="100" offset_y="68" text="0xdc2424" />
+  </panel>
+  
+  <button name="BtConnect"   style="BigButtonRed" offset_x="432" offset_y="188" text="Connect" >
+  </button>
+  <button name="BtBack"  style="BigButtonBlue" offset_x="48" offset_y="188" text="Back" >
+  </button>
+  
+</window>
+
+
+
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="./object.xsd"/>
+  <xs:complexType name="ImageStateType">
+    <xs:complexContent>
+      <xs:extension base="StateType">
+        <xs:attribute name="texture" type="xs:string"/>
+        <xs:attribute name="mask"    type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ImageType">
+    <xs:complexContent>
+      <xs:extension base="ObjectType">
+        <xs:sequence>
+          <xs:element name="state_normal"           type="ImageStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_highlight"        type="ImageStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_active"           type="ImageStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_active_highlight" type="ImageStateType" minOccurs="0" maxOccurs="1"/>
+          <xs:element name="state_disabled"         type="ImageStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_modified"         type="ImageStateType" minOccurs="0" maxOccurs="1" />
+          <xs:element name="state_information"      type="ImageStateType" minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="scalex"  type="xs:boolean" default="true"/>
+        <xs:attribute name="scaley"  type="xs:boolean" default="true"/>
+        <xs:attribute name="repeatx" type="xs:boolean" default="false"/>
+        <xs:attribute name="repeaty" type="xs:boolean" default="false"/>
+        <xs:attribute name="texture" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="image" type="ImageType"/>
+</xs:schema>
+
+
+

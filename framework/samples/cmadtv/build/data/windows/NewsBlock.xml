@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   name="NewsBlock" width="288" height="68" bg_color="0x5490bc">
+  <scaleimage name="ImgBackground" style="ButtonBackground" size_mode="stretch" />
+  <textbox name="TbText" offset_y="2" size_mode_x="stretch" height="48" padding_left="4" padding_right="4" text="South Africa: ANC followers and Inkatha followers cause heavy riots." font_size="10" text_align_vertical="top" cut="word wrap" bg_visible="false" />
+  <textbox name="TbTime" offset_x="40" offset_y="50" width="84" height="16" text="23:00 (Old)" font_size="10" text_align_vertical="top" bg_visible="false" />
+  <textbox name="TbPrice" offset_x="158" offset_y="50" width="66" height="16" text="$ 1000" font_size="10" text_align_vertical="top" bg_visible="false" />
+</panel>
+
+

@@ -1,0 +1,17 @@
+<window xmlns="true" xmlns:xsi="true" xsi:schemaLocation="true" name="EditorPanel" width="600" height="400" local_attach_point="center" reference_attach_point="center">
+	<state_normal bg_color="ccccccff"/>
+	<panel width="580" height="380" local_attach_point="center" reference_attach_point="center">
+		<listbox name="LbFiles" width="500" height="300" offset_x="5" offset_y="5">
+			<state_normal bg_color="000000ff"/>
+			<column name="ColName"/>
+		</listbox>
+		<button name="BtCancel" width="100" height="25" local_attach_point="bottom right" reference_attach_point="bottom right" offset_x="-5" offset_y="-5" text="Cancel">
+			<state_normal bg_visible="false"/>
+		</button>
+		<button name="BtOk" width="100" height="25" attach_object="prev sibling" local_attach_point="right" reference_attach_point="left" offset_x="-5" text="OK">
+			<state_normal bg_visible="false"/>
+		</button>
+		<editbox name="EbFileName" width="500" height="24" offset_x="5" offset_y="315"/>
+	</panel>
+</window>
+

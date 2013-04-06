@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML Studio - FREE Community Edition 7.1.0.1135 (http://www.liquid-technologies.com)-->
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls/styles" 
+           attributeFormDefault="unqualified" 
+           elementFormDefault="qualified" 
+           targetNamespace="http://cframework.oeing.eu/schemas/ctrls/styles" 
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="./ctrl_style.xsd" />
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+      CGui Image Style Schema.
+      Copyright 2008 Christian Oeing. Alle Rechte vorbehalten.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="ImageStateType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="StateType">
+        <xs:attribute name="texture" type="xs:string" />
+        <xs:attribute name="texture_x" type="xs:integer" />
+        <xs:attribute name="texture_y" type="xs:integer" />
+        <xs:attribute name="texture_width" type="xs:integer" />
+        <xs:attribute name="texture_height" type="xs:integer" />
+        <xs:attribute name="mask" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ImageStyleType">
+    <xs:complexContent>
+      <xs:extension base="CtrlStyleType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="state_normal" type="ImageStateType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="state_highlight" type="ImageStateType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="state_active" type="ImageStateType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="state_active_highlight" type="ImageStateType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="state_disabled" type="ImageStateType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="state_modified" type="ImageStateType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="state_information" type="ImageStateType" />
+        </xs:sequence>
+        <xs:attribute default="true" name="scalex" type="xs:boolean" />
+        <xs:attribute default="true" name="scaley" type="xs:boolean" />
+        <xs:attribute default="false" name="repeatx" type="xs:boolean" />
+        <xs:attribute default="false" name="repeaty" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

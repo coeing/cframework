@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cgui" />
+		<Option pch_mode="2" />
+		<Option default_target="Debug Win32" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Messages\;" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option platforms="Windows;" />
+				<Option output="$(basepath)\lib\libcguid" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(basepath)\obj\$(project_name)\debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option platforms="Windows;" />
+				<Option output="$(basepath)\lib\libcgui" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(basepath)\obj\$(project_name)\release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+			</Target>
+			<Environment>
+				<Variable name="basepath" value="..\..\.." />
+			</Environment>
+		</Build>
+		<VirtualTargets>
+			<Add alias="Debug" targets="Debug Win32;" />
+			<Add alias="Release" targets="Release Win32;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-mthreads" />
+			<Add option="-DWIN32" />
+			<Add directory="$(basepath)\include\stlport" />
+			<Add directory="$(basepath)\include" />
+		</Compiler>
+		<Unit filename="..\..\..\data\common\ctrls\border.xsd" />
+		<Unit filename="..\..\..\data\common\ctrls\button.xsd" />
+		<Unit filename="..\..\..\data\common\ctrls\button_checkbox_square.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\checkbox.xsd" />
+		<Unit filename="..\..\..\data\common\ctrls\combobox.xsd" />
+		<Unit filename="..\..\..\data\common\ctrls\ctrls.xsd" />
+		<Unit filename="..\..\..\data\common\ctrls\editbox.xsd" />
+		<Unit filename="..\..\..\data\common\ctrls\green_button.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\listbox.xsd" />
+		<Unit filename="..\..\..\data\common\ctrls\listboxcolumn.xsd" />
+		<Unit filename="..\..\..\data\common\ctrls\panel.xsd" />
+		<Unit filename="..\..\..\data\common\ctrls\scrollbar.xsd" />
+		<Unit filename="..\..\..\data\common\ctrls\scrollpanel.xsd" />
+		<Unit filename="..\..\..\data\common\ctrls\std_border.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_button.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_checkbox.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_checkbox_button.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_colored_button.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_combobox.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_combobox_button.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_editbox.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_listbox.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_listboxcell.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_listboxcolumn.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_scrollbar.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\std_scrollpanel.xml" />
+		<Unit filename="..\..\..\data\common\ctrls\window.xsd" />
+		<Unit filename="..\..\..\include\cgui\AlignmentType.h" />
+		<Unit filename="..\..\..\include\cgui\AnimateParams.h" />
+		<Unit filename="..\..\..\include\cgui\AnimatedObject.h" />
+		<Unit filename="..\..\..\include\cgui\BaseTextBox.h" />
+		<Unit filename="..\..\..\include\cgui\Border.h" />
+		<Unit filename="..\..\..\include\cgui\BorderFactory.h" />
+		<Unit filename="..\..\..\include\cgui\BorderType.h" />
+		<Unit filename="..\..\..\include\cgui\Button.h" />
+		<Unit filename="..\..\..\include\cgui\ButtonIF.h" />
+		<Unit filename="..\..\..\include\cgui\ButtonState.h" />
+		<Unit filename="..\..\..\include\cgui\ButtonStateChangedMsg.h" />
+		<Unit filename="..\..\..\include\cgui\CellType.h" />
+		<Unit filename="..\..\..\include\cgui\ChangeOutlineMsg.h" />
+		<Unit filename="..\..\..\include\cgui\ChangePositionMsg.h" />
+		<Unit filename="..\..\..\include\cgui\ChangeTextureRepeatMsg.h" />
+		<Unit filename="..\..\..\include\cgui\ChangeTextureScaleMsg.h" />
+		<Unit filename="..\..\..\include\cgui\CharMetrics.h" />
+		<Unit filename="..\..\..\include\cgui\CheckBox.h" />
+		<Unit filename="..\..\..\include\cgui\CheckChangedMsg.h" />
+		<Unit filename="..\..\..\include\cgui\ChildIterator.h" />
+		<Unit filename="..\..\..\include\cgui\ColumnContentChangedMsg.h" />
+		<Unit filename="..\..\..\include\cgui\ColumnInfo.h" />
+		<Unit filename="..\..\..\include\cgui\CombinedCtrl.h" />
+		<Unit filename="..\..\..\include\cgui\CombinedCtrlIF.h" />
+		<Unit filename="..\..\..\include\cgui\ComboBox.h" />
+		<Unit filename="..\..\..\include\cgui\ContentChangedMsg.h" />
+		<Unit filename="..\..\..\include\cgui\CtrlStyle.h" />
+		<Unit filename="..\..\..\include\cgui\Cursor.h" />
+		<Unit filename="..\..\..\include\cgui\Decorator.h" />
+		<Unit filename="..\..\..\include\cgui\DestroyMsg.h" />
+		<Unit filename="..\..\..\include\cgui\DimensionsChangedMsg.h" />
+		<Unit filename="..\..\..\include\cgui\DragDropSystem.h" />
+		<Unit filename="..\..\..\include\cgui\DraggabilityChangedMsg.h" />
+		<Unit filename="..\..\..\include\cgui\EditBox.h" />
+		<Unit filename="..\..\..\include\cgui\ExternIncludes.h" />
+		<Unit filename="..\..\..\include\cgui\FocusMsg.h" />
+		<Unit filename="..\..\..\include\cgui\Font.h" />
+		<Unit filename="..\..\..\include\cgui\FontLoader.h" />
+		<Unit filename="..\..\..\include\cgui\FreeType.h" />
+		<Unit filename="..\..\..\include\cgui\Globals.h" />
+		<Unit filename="..\..\..\include\cgui\GuiContainer.h" />
+		<Unit filename="..\..\..\include\cgui\GuiMain.h" />
+		<Unit filename="..\..\..\include\cgui\GuiNode.h" />
+		<Unit filename="..\..\..\include\cgui\GuiObject.h" />
+		<Unit filename="..\..\..\include\cgui\GuiObjectCreator.h" />
+		<Unit filename="..\..\..\include\cgui\GuiObjectView.h" />
+		<Unit filename="..\..\..\include\cgui\GuiStyle.h" />
+		<Unit filename="..\..\..\include\cgui\IAnimated.h" />
+		<Unit filename="..\..\..\include\cgui\IRenderable.h" />
+		<Unit filename="..\..\..\include\cgui\Image.h" />
+		<Unit filename="..\..\..\include\cgui\Keyboard.h" />
+		<Unit filename="..\..\..\include\cgui\KeyboardEventMsg.h" />
+		<Unit filename="..\..\..\include\cgui\KeyboardMsg.h" />
+		<Unit filename="..\..\..\include\cgui\ListBoxCell.h" />
+		<Unit filename="..\..\..\include\cgui\ListBoxColumn.h" />
+		<Unit filename="..\..\..\include\cgui\ListBoxMessages.h" />
+		<Unit filename="..\..\..\include\cgui\Listbox.h" />
+		<Unit filename="..\..\..\include\cgui\Logger.h" />
+		<Unit filename="..\..\..\include\cgui\Message.h" />
+		<Unit filename="..\..\..\include\cgui\MessageID.h" />
+		<Unit filename="..\..\..\include\cgui\MessageNode.h" />
+		<Unit filename="..\..\..\include\cgui\Messagesystem.h" />
+		<Unit filename="..\..\..\include\cgui\Mouse.h" />
+		<Unit filename="..\..\..\include\cgui\MouseEventMsg.h" />
+		<Unit filename="..\..\..\include\cgui\MouseMoveMsg.h" />
+		<Unit filename="..\..\..\include\cgui\MouseMsg.h" />
+		<Unit filename="..\..\..\include\cgui\Outline.h" />
+		<Unit filename="..\..\..\include\cgui\Panel.h" />
+		<Unit filename="..\..\..\include\cgui\ParentChangedMsg.h" />
+		<Unit filename="..\..\..\include\cgui\PostRenderMsg.h" />
+		<Unit filename="..\..\..\include\cgui\RenderParams.h" />
+		<Unit filename="..\..\..\include\cgui\RenderWindow.h" />
+		<Unit filename="..\..\..\include\cgui\ResizabilityChangedMsg.h" />
+		<Unit filename="..\..\..\include\cgui\ScaleImage.h" />
+		<Unit filename="..\..\..\include\cgui\ScrollMsg.h" />
+		<Unit filename="..\..\..\include\cgui\Scrollbar.h" />
+		<Unit filename="..\..\..\include\cgui\ScrollingType.h" />
+		<Unit filename="..\..\..\include\cgui\Scrollpanel.h" />
+		<Unit filename="..\..\..\include\cgui\SimpleBorder.h" />
+		<Unit filename="..\..\..\include\cgui\TextChangedMsg.h" />
+		<Unit filename="..\..\..\include\cgui\TextColorType.h" />
+		<Unit filename="..\..\..\include\cgui\Textbox.h" />
+		<Unit filename="..\..\..\include\cgui\TextboxView.h" />
+		<Unit filename="..\..\..\include\cgui\Texture.h" />
+		<Unit filename="..\..\..\include\cgui\TextureLoader.h" />
+		<Unit filename="..\..\..\include\cgui\ToolTipSystem.h" />
+		<Unit filename="..\..\..\include\cgui\Window.h" />
+		<Unit filename="..\..\..\src\cgui\AnimateParams.cpp" />
+		<Unit filename="..\..\..\src\cgui\AnimatedObject.cpp" />
+		<Unit filename="..\..\..\src\cgui\BaseTextBox.cpp" />
+		<Unit filename="..\..\..\src\cgui\Border.cpp" />
+		<Unit filename="..\..\..\src\cgui\BorderFactory.cpp" />
+		<Unit filename="..\..\..\src\cgui\Button.cpp" />
+		<Unit filename="..\..\..\src\cgui\ButtonStateChangedMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\ChangeOutlineMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\ChangePositionMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\ChangeTextureRepeatMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\ChangeTextureScaleMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\CharMetrics.cpp" />
+		<Unit filename="..\..\..\src\cgui\CheckBox.cpp" />
+		<Unit filename="..\..\..\src\cgui\CheckChangedMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\ChildIterator.cpp" />
+		<Unit filename="..\..\..\src\cgui\ColumnContentChangedMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\CombinedCtrl.cpp" />
+		<Unit filename="..\..\..\src\cgui\ComboBox.cpp" />
+		<Unit filename="..\..\..\src\cgui\ContentChangedMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\CtrlStyle.cpp" />
+		<Unit filename="..\..\..\src\cgui\Cursor.cpp" />
+		<Unit filename="..\..\..\src\cgui\Decorator.cpp" />
+		<Unit filename="..\..\..\src\cgui\DestroyMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\DimensionsChangedMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\DragDropSystem.cpp" />
+		<Unit filename="..\..\..\src\cgui\DraggabilityChangedMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\EditBox.cpp" />
+		<Unit filename="..\..\..\src\cgui\FocusMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\Font.cpp" />
+		<Unit filename="..\..\..\src\cgui\FontLoader.cpp" />
+		<Unit filename="..\..\..\src\cgui\FreeType.cpp" />
+		<Unit filename="..\..\..\src\cgui\Globals.cpp" />
+		<Unit filename="..\..\..\src\cgui\GuiContainer.cpp" />
+		<Unit filename="..\..\..\src\cgui\GuiMain.cpp" />
+		<Unit filename="..\..\..\src\cgui\GuiNode.cpp" />
+		<Unit filename="..\..\..\src\cgui\GuiObject.cpp" />
+		<Unit filename="..\..\..\src\cgui\GuiObjectCreator.cpp" />
+		<Unit filename="..\..\..\src\cgui\GuiObjectView.cpp" />
+		<Unit filename="..\..\..\src\cgui\GuiStyle.cpp" />
+		<Unit filename="..\..\..\src\cgui\Image.cpp" />
+		<Unit filename="..\..\..\src\cgui\Keyboard.cpp" />
+		<Unit filename="..\..\..\src\cgui\KeyboardEventMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\KeyboardMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\ListBox.cpp" />
+		<Unit filename="..\..\..\src\cgui\ListBoxCell.cpp" />
+		<Unit filename="..\..\..\src\cgui\ListBoxColumn.cpp" />
+		<Unit filename="..\..\..\src\cgui\ListBoxMessages.cpp">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="..\..\..\src\cgui\MessageNode.cpp" />
+		<Unit filename="..\..\..\src\cgui\MessageSystem.cpp" />
+		<Unit filename="..\..\..\src\cgui\Messages.cpp" />
+		<Unit filename="..\..\..\src\cgui\MouseEventMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\MouseMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\Panel.cpp" />
+		<Unit filename="..\..\..\src\cgui\ParentChangedMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\PostRenderMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\RenderParams.cpp" />
+		<Unit filename="..\..\..\src\cgui\RenderWindow.cpp" />
+		<Unit filename="..\..\..\src\cgui\ResizabilityChangedMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\ScaleImage.cpp" />
+		<Unit filename="..\..\..\src\cgui\ScrollBar.cpp" />
+		<Unit filename="..\..\..\src\cgui\ScrollMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\ScrollPanel.cpp" />
+		<Unit filename="..\..\..\src\cgui\SimpleBorder.cpp" />
+		<Unit filename="..\..\..\src\cgui\TextBox.cpp" />
+		<Unit filename="..\..\..\src\cgui\TextBoxView.cpp" />
+		<Unit filename="..\..\..\src\cgui\TextChangedMsg.cpp" />
+		<Unit filename="..\..\..\src\cgui\Texture.cpp" />
+		<Unit filename="..\..\..\src\cgui\TextureLoader.cpp" />
+		<Unit filename="..\..\..\src\cgui\ToolTipSystem.cpp" />
+		<Unit filename="..\..\..\src\cgui\Window.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

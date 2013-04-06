@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:include schemaLocation="c:/projects/co/cframework/data/common/ctrls/object.xsd"/>
+	
+	<xsd:annotation>
+		<xsd:documentation xml:lang="DE">
+			CGui Mesh Schema.
+			Copyright 2006 Christian Oeing. Alle Rechte vorbehalten.
+		</xsd:documentation>
+	</xsd:annotation>
+
+	<xsd:complexType name="MeshType">
+		<xsd:complexContent>
+			<xsd:extension base="ObjectType">
+				<xsd:attribute name="type" type="xsd:string" fixed="mesh"/>
+
+				<xsd:attribute name="filename" type="xsd:string"/>
+				<xsd:attribute name="material" type="xsd:string"/>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+
+
+</xsd:schema>
+
+
+

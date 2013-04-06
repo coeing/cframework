@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+			CGui ListBox Column Schema.
+			Copyright 2007 Christian Oeing. Alle Rechte vorbehalten.
+		</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./combined.xsd"/>
+  <xs:include schemaLocation="./textbox.xsd"/>
+  <xs:element name="column" type="ListBoxColumnType"/>
+  <xs:complexType name="ListBoxColumnType">
+    <xs:complexContent>
+      <xs:extension base="CombinedType">
+        <xs:sequence>
+          <xs:element name="header"   type="TextBoxType" minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="column_header" type="xs:string"	   default="" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
+
+
+
+
+
+

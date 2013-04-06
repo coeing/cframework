@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<panel xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../../common/ctrls/panel.xsd"
+   name="AdvertTooltip" width="250" height="184" bg_color="0x808080ff">
+  <textbox name="TbName" offset_y="2" width="246" height="18" reference_attach_point="top" local_attach_point="top" text="Advert" padding_left="12" font_size="12" bg_color="0xdc2424ff" />
+  <textbox name="TbSlogan" offset_y="20" size_mode_x="stretch" height="48" text="Description" font_size="11" cut="word wrap" text_align_vertical="top" padding_left="14" padding_right="14" bg_visible="false"/>
+  <textbox name="TbBonus" offset_y="68" width="246" height="16" reference_attach_point="top" local_attach_point="top" text="$180000" padding_left="12" bg_color="0xb0b0b0ff" />
+  <textbox name="TbPenalty" offset_y="84" width="246" height="16" reference_attach_point="top" local_attach_point="top" text="$180000" padding_left="12" bg_color="0xb0b0b0ff" />
+  <textbox name="TbCondition" offset_y="100" size_mode_x="stretch" height="16" text="Condition" padding_left="14" padding_right="14" bg_visible="false"/>
+  <textbox name="TbSpotsDays" offset_y="116" width="246" height="16" reference_attach_point="top" local_attach_point="top" text="6 Spots in 3 Tagen" padding_left="12" bg_color="0xb0b0b0ff" />
+</panel>

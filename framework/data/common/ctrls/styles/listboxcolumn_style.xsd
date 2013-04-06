@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls/styles"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls/styles"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+      CGui ListBox Style Schema.
+      Copyright 2008 Christian Oeing. Alle Rechte vorbehalten.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./ctrl_style.xsd"/>
+  <xs:include schemaLocation="./textbox_style.xsd"/>
+  <xs:complexType name="ColumnHeaderType">
+    <xs:complexContent>
+      <xs:extension base="TextBoxStyleType">
+        <xs:attribute name="text" type="xs:string" default="column"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ListBoxColumnStyleType">
+    <xs:complexContent>
+      <xs:extension base="CtrlStyleType">
+        <xs:sequence>
+          <xs:element name="header" type="ColumnHeaderType" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="column_header" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="listboxcolumn_style" type="ListBoxColumnStyleType"/>
+</xs:schema>
+
+
+
+

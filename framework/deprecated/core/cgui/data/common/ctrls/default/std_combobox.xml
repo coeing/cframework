@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<combobox xmlns=""
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="..\ctrls\combobox.xsd"
+		height="18"  
+		font_size="12" 
+		bg_transparent="false" 
+		bg_color="ffffff" >
+	<editbox />
+	<listbutton xml_file="common/ctrls/std_combobox_button.xml" />
+	<dropdownlist />
+</combobox>

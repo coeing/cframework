@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/StatsRatingsWindow/bg.png"/>
+  </image>
+  
+  <button name="BtPlayer1" style="StdButton" button_type="toggle" offset_x="24" offset_y="16" width="96" height="22" text="Player 1" text_align_horizontal="left" >
+    <state_normal bg_color="dc2424"/>
+    <state_highlight bg_color="c22020"/>
+    <state_active bg_color="f52828"/>
+  </button>
+  <button name="BtPlayer2" style="StdButton" button_type="toggle" attach_object="prev sibling" reference_attach_point="bottom left" offset_y="6" width="96" height="22" text="Player 2" text_align_horizontal="left" >
+    <state_normal bg_color="40a040"/>
+    <state_highlight bg_color="368736"/>
+    <state_active bg_color="4aba4a"/>
+  </button>
+  <button name="BtPlayer3" style="StdButton" button_type="toggle" attach_object="prev sibling" reference_attach_point="bottom left" offset_y="6" width="96" height="22" text="Player 3" text_align_horizontal="left" >
+    <state_normal bg_color="5468a0"/>
+    <state_highlight bg_color="475887"/>
+    <state_active bg_color="6279ba"/>
+  </button>
+
+  <object name="ObjAxisLabelAnchor" offset_x="152" offset_y="12"/>
+  <textbox name="TbAxisLabel5" attach_object="prev sibling" reference_attach_point="bottom left" offset_y="14" width="24" height="16" text_align_horizontal="center" bg_visible="false" />
+  <textbox name="TbAxisLabel4" attach_object="prev sibling" reference_attach_point="bottom left" offset_y="14" width="24" height="16" text_align_horizontal="center" bg_visible="false" />
+  <textbox name="TbAxisLabel3" attach_object="prev sibling" reference_attach_point="bottom left" offset_y="14" width="24" height="16" text_align_horizontal="center" bg_visible="false" />
+  <textbox name="TbAxisLabel2" attach_object="prev sibling" reference_attach_point="bottom left" offset_y="14" width="24" height="16" text_align_horizontal="center" bg_visible="false" />
+  <textbox name="TbAxisLabel1" attach_object="prev sibling" reference_attach_point="bottom left" offset_y="14" width="24" height="16" text_align_horizontal="center" bg_visible="false" />
+
+  <panel name="PnlBar1" style="data/windows/StatsRatingBar.xml" style_location="file" offset_x="186" offset_y="32">
+    <panel name="PnlBar">
+      <image name="ImgColor" bg_color="0xdc2424" />
+    </panel>
+  </panel>
+  <panel name="PnlBar2" style="data/windows/StatsRatingBar.xml" style_location="file" offset_x="246" offset_y="32">
+    <panel name="PnlBar">
+      <image name="ImgColor" bg_color="0x40a040" />
+    </panel>
+  </panel>
+  <panel name="PnlBar3" style="data/windows/StatsRatingBar.xml" style_location="file" offset_x="306" offset_y="32">
+    <panel name="PnlBar">
+      <image name="ImgColor" bg_color="0x5468a0" />
+    </panel>
+  </panel>
+  <panel name="PnlBar4" style="data/windows/StatsRatingBar.xml" style_location="file" offset_x="366" offset_y="32">
+    <panel name="PnlBar">
+      <image name="ImgColor" bg_color="0x5468a0" />
+    </panel>
+  </panel>
+  <panel name="PnlBar5" style="data/windows/StatsRatingBar.xml" style_location="file" offset_x="426" offset_y="32">
+    <panel name="PnlBar">
+      <image name="ImgColor" bg_color="0x5468a0" />
+    </panel>
+  </panel>
+  <panel name="PnlBar6" style="data/windows/StatsRatingBar.xml" style_location="file" offset_x="486" offset_y="32">
+    <panel name="PnlBar">
+      <image name="ImgColor" bg_color="0x5468a0" />
+    </panel>
+  </panel>
+  <panel name="PnlBar7" style="data/windows/StatsRatingBar.xml" style_location="file" offset_x="546" offset_y="32">
+    <panel name="PnlBar">
+      <image name="ImgColor" bg_color="0x5468a0" />
+    </panel>
+  </panel>
+
+  <button name="BtPeriod" style="StdButton" offset_x="24" offset_y="112" width="96" height="22" text="Today" />
+  <button name="BtRatings" style="StdButton" offset_x="24" offset_y="140" width="96" height="22" text="Image" />
+</window>
+
+
+
+
+

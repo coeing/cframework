@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\..\..\core\cctrl\include\cctrl\Controls.h" open="1" top="0" tabpos="1">
+		<Cursor position="884" topLine="13" />
+	</File>
+	<File name="..\..\..\core\cctrl\src\WindowController.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6945" topLine="242" />
+	</File>
+	<File name="postbuildD.bat" open="0" top="0" tabpos="0">
+		<Cursor position="27" topLine="0" />
+	</File>
+	<File name="postbuildR.bat" open="0" top="0" tabpos="0">
+		<Cursor position="27" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

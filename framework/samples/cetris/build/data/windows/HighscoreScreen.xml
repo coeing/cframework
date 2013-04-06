@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+		name="HighscoreScreen" 
+		offset_x="100"
+		offset_y="50" 
+		width="600"
+		height="500" 
+		bg_color="cccccc" >
+	<textbox name="TbCongratulations" offset_x="50" offset_y="100" width="500" height="25" text="Glückwunsch! Du darfst dich in die Highscoreliste eintragen." text_align_horizontal="center" text_align_vertical="middle" text_color="000000" bg_visible="false" />
+  <panel name="PnlName" size_mode="content" offset_y="150" local_attach_point="top" reference_attach_point="top" bg_visible="false">
+	  <textbox name="TbName" width="75" height="25" text="Name:" text_align_horizontal="left" text_align_vertical="middle" text_color="000000" bg_visible="false" />
+	  <editbox name="EbName" style="default" attach_object="prev sibling" reference_attach_point="top right" width="125" height="25" text="" text_align_horizontal="left" text_align_vertical="middle" text_color="000000" />
+    <button name="BtOk" style="default" attach_object="prev sibling" reference_attach_point="top right" width="40" height="25" text="Ok" />
+  </panel>
+	<textbox name="TbTop10" offset_x="50" offset_y="125" width="500" height="50" font_size="34" text="Top Ten" text_align_horizontal="center" text_align_vertical="middle" text_color="000000" bg_visible="false" />
+	<listbox name="LbHighscores" style="default" offset_x="150" offset_y="180" width="300" height="200" bg_color="000000">
+		<column name="Col1" column_header="Name" width="100" />
+		<column name="Col2" column_header="Punkte" />
+	</listbox>
+	<button name="BtMenu" style="default" offset_x="350" offset_y="425" width="100" height="25" text="Zum Menu" text_color="000000" bg_color="ffff00" />
+</window>

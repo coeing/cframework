@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../../common/ctrls/window.xsd"
+		name="MainMenuWindow" 
+		offset_x="100"
+		offset_y="50" 
+		width="600"
+		height="500" 
+		bg_transparent="false" 
+		bg_color="cccccc" >
+	<image name="ImgTitle" offset_x="91" offset_y="22" width="418" height="148" texture="data/art/logo.tif" bg_transparent="true" />
+	<panel name="ButtonPanel" offset_x="200" offset_y="200" width="200" height="440" bg_visible="false" >
+    <button name="BtStart" offset_x="40" offset_y="30" width="120" height="25" text="Start" style="default">
+      <image name="theBackground">
+        <state_normal bg_color="00ff00" />
+      </image>
+    </button>
+    <button name="BtHighscores" offset_x="40" offset_y="80" width="120" height="25" text="Highscores" style="default">
+      <image name="theBackground">
+        <state_normal bg_color="ffff00" />
+      </image>
+    </button>
+		<button name="BtExit" offset_x="40" offset_y="130" width="120" height="25" text="Beenden" style="default"/>
+	</panel>
+</window>

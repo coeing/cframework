@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkbox_style xmlns="http://www.oeing.eu/cframework/schemas/ctrls/styles"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls/styles ../checkbox_style.xsd">
+  <button_style width="13" height="13" ratio="1.0">
+    <image>
+      <state_normal texture="common/art/ctrls/checkboxes/windows_checkbox_normal.tif"/>
+      <state_active texture="common/art/ctrls/checkboxes/windows_checkbox_down.tif"/>
+    </image>
+  </button_style>
+  <textbox_style font="common/fonts/arial.ttf" font_size="8" text_align_horizontal="left" text_align_vertical="top"/>
+</checkbox_style>
+
+
+

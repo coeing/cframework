@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+			CGui Button Schema.
+			Copyright 2007 Christian Oeing. Alle Rechte vorbehalten.
+		</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./button.xsd"/>
+  <xs:include schemaLocation="./editbox.xsd"/>
+  <xs:include schemaLocation="./listbox.xsd"/>
+  <xs:element name="combobox" type="ComboBoxType"/>
+  <xs:complexType name="ComboBoxType">
+    <xs:complexContent>
+      <xs:extension base="CombinedType">
+        <xs:sequence>
+          <xs:element name="editbox"			type="ComboBoxEditBoxType"		minOccurs="0" maxOccurs="1" />
+          <xs:element name="listbutton"		type="ComboBoxListButtonType"	minOccurs="0" maxOccurs="1" />
+          <xs:element name="dropdownlist" type="ComboBoxDropDownListType" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="text" type="xs:string"/>
+        <xs:attribute name="font" type="xs:string" default=""/>
+        <xs:attribute name="font_size" type="xs:integer" default="-1"/>
+        <xs:attribute name="color_normal"		type="xs:hexBinary" default="000000" />
+        <xs:attribute name="color_not_active" type="xs:hexBinary" default="222222"/>
+        <xs:attribute name="color_disabled" type="xs:hexBinary" default="999999"/>
+        <xs:attribute name="text_align_horizontal" type="xs:string" default="center"/>
+        <xs:attribute name="text_align_vertical" type="xs:string" default="middle"/>
+        <xs:attribute name="xml_file" type="xs:string" default="common/ctrls/std_combobox.xml"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ComboBoxDropDownListType">
+    <xs:complexContent>
+      <xs:extension base="ListBoxType">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ComboBoxListButtonType">
+    <xs:complexContent>
+      <xs:extension base="ButtonType">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ComboBoxEditBoxType">
+    <xs:complexContent>
+      <xs:extension base="EditBoxType">
+        <xs:attribute name="bg_transparent" type="xs:boolean" fixed="false"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
+

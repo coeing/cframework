@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="postbuild.bat" open="0" top="0" tabpos="0">
+		<Cursor position="534" topLine="0" />
+	</File>
+	<File name="postbuildD.bat" open="1" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="postbuildR.bat" open="0" top="0" tabpos="0">
+		<Cursor position="75" topLine="0" />
+	</File>
+	<File name="..\..\..\samples\cctrlhelloworld\include\cctrlhelloworld\TestApp.h" open="0" top="0" tabpos="0">
+		<Cursor position="273" topLine="0" />
+	</File>
+	<File name="..\..\..\samples\cctrlhelloworld\include\cctrlhelloworld\TestWindow.h" open="1" top="0" tabpos="4">
+		<Cursor position="557" topLine="9" />
+	</File>
+	<File name="..\..\..\samples\cctrlhelloworld\src\TestApp.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="144" topLine="0" />
+	</File>
+	<File name="..\..\..\samples\cctrlhelloworld\src\TestWindow.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="459" topLine="6" />
+	</File>
+	<File name="..\..\..\samples\cctrlhelloworld\src\main.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="26" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

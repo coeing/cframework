@@ -1,0 +1,145 @@
+# depslib dependency file v1.0
+935757660 source:c:\projects\co\cframework\ext\glpng\include\png\png.c
+	"png.h"
+
+935757660 c:\projects\co\cframework\ext\glpng\include\png\png.h
+	"../zlib/zlib.h"
+	"pngconf.h"
+	<stdio.h>
+
+935757660 c:\projects\co\cframework\ext\glpng\include\zlib\zlib.h
+	"zconf.h"
+
+935757660 c:\projects\co\cframework\ext\glpng\include\zlib\zconf.h
+	<windows.h>
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+
+935757660 c:\projects\co\cframework\ext\glpng\include\png\pngconf.h
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<mem.h>
+	"alloc.h"
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+935757660 source:c:\projects\co\cframework\ext\glpng\include\png\pngerror.c
+	"png.h"
+
+935757660 source:c:\projects\co\cframework\ext\glpng\include\png\pngget.c
+	"png.h"
+
+935757660 source:c:\projects\co\cframework\ext\glpng\include\png\pngmem.c
+	"png.h"
+
+935757660 source:c:\projects\co\cframework\ext\glpng\include\png\pngpread.c
+	"png.h"
+
+935757660 source:c:\projects\co\cframework\ext\glpng\include\png\pngread.c
+	"png.h"
+
+935757660 source:c:\projects\co\cframework\ext\glpng\include\png\pngrio.c
+	"png.h"
+
+935757660 source:c:\projects\co\cframework\ext\glpng\include\png\pngrtran.c
+	"png.h"
+
+935757660 source:c:\projects\co\cframework\ext\glpng\include\png\pngrutil.c
+	"png.h"
+
+935757660 source:c:\projects\co\cframework\ext\glpng\include\png\pngset.c
+	"png.h"
+
+935757660 source:c:\projects\co\cframework\ext\glpng\include\png\pngtrans.c
+	"png.h"
+
+935757960 source:c:\projects\co\cframework\ext\glpng\include\zlib\adler32.c
+	"zlib.h"
+
+935758800 source:c:\projects\co\cframework\ext\glpng\include\zlib\crc32.c
+	"zlib.h"
+
+935758860 source:c:\projects\co\cframework\ext\glpng\include\zlib\infblock.c
+	"zutil.h"
+	"infblock.h"
+	"inftrees.h"
+	"infcodes.h"
+	"infutil.h"
+
+935757660 c:\projects\co\cframework\ext\glpng\include\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<alloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+935757660 c:\projects\co\cframework\ext\glpng\include\zlib\infblock.h
+
+935757660 c:\projects\co\cframework\ext\glpng\include\zlib\inftrees.h
+
+935757660 c:\projects\co\cframework\ext\glpng\include\zlib\infcodes.h
+
+935757660 c:\projects\co\cframework\ext\glpng\include\zlib\infutil.h
+
+935758920 source:c:\projects\co\cframework\ext\glpng\include\zlib\infcodes.c
+	"zutil.h"
+	"inftrees.h"
+	"infblock.h"
+	"infcodes.h"
+	"infutil.h"
+	"inffast.h"
+
+935757660 c:\projects\co\cframework\ext\glpng\include\zlib\inffast.h
+
+935758740 source:c:\projects\co\cframework\ext\glpng\include\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"infblock.h"
+	"infcodes.h"
+	"infutil.h"
+	"inffast.h"
+
+935758680 source:c:\projects\co\cframework\ext\glpng\include\zlib\inflate.c
+	"zutil.h"
+	"infblock.h"
+
+935758680 source:c:\projects\co\cframework\ext\glpng\include\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+	"inffixed.h"
+
+935757660 c:\projects\co\cframework\ext\glpng\include\zlib\inffixed.h
+
+935758560 source:c:\projects\co\cframework\ext\glpng\include\zlib\infutil.c
+	"zutil.h"
+	"infblock.h"
+	"inftrees.h"
+	"infcodes.h"
+	"infutil.h"
+
+935758980 source:c:\projects\co\cframework\ext\glpng\include\zlib\zutil.c
+	"zutil.h"
+
+1223752486 source:c:\projects\co\cframework\ext\glpng\src\glpng.c
+	<windows.h>
+	<GL/glpng.h>
+	<GL/gl.h>
+	<stdlib.h>
+	<math.h>
+	"png/png.h"
+
+963260820 c:\projects\co\cframework\ext\glpng\include\gl\glpng.h
+	<stdio.h>
+

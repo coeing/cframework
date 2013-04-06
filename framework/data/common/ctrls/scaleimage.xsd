@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+  targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="./object.xsd"/>
+  <xs:include schemaLocation="./image.xsd"/>
+  <xs:complexType name="ScaleImageType">
+    <xs:complexContent>
+      <xs:extension base="ObjectType">
+        <xs:sequence>
+          <xs:element name="topleft"      type="ImageType" minOccurs="0" />
+          <xs:element name="topcenter"    type="ImageType" minOccurs="0" />
+          <xs:element name="topright"     type="ImageType" minOccurs="0" />
+          <xs:element name="middleleft"   type="ImageType" minOccurs="0" />
+          <xs:element name="middlecenter" type="ImageType" minOccurs="0"/>
+          <xs:element name="middleright"  type="ImageType" minOccurs="0" />
+          <xs:element name="bottomleft"   type="ImageType" minOccurs="0" />
+          <xs:element name="bottomcenter" type="ImageType" minOccurs="0"/>
+          <xs:element name="bottomright"  type="ImageType" minOccurs="0" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
+
+
+
+
+
+
+
+
+

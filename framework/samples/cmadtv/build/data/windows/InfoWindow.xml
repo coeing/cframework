@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls file:///C:/projects/co/cframework/core/cgui/data/common/ctrls/window.xsd"
+   name="InfoWindow" offset_y="242" width="640" height="158">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/InfoWindow/bg.png"/>
+  </image>
+  <textbox name="TbFrameRate" offset_x="450" offset_y="54" width="82" height="20" bg_color="0xb0b0b0" />
+  <textbox name="TbCash" offset_x="306" offset_y="14" width="82" height="20" text_align_horizontal="right" padding_right="12" bg_visible="false" />
+  <textbox name="TbSpectators" offset_x="306" offset_y="54" width="82" height="20" text_align_horizontal="right" padding_right="12" bg_visible="false" />
+  <progressbar name="PbLove" offset_x="254" offset_y="96" width="100" height="12" bg_visible="false">
+    <image name="ImgBg" size_mode="stretch" texture="data/art/windows/InfoWindow/lovebar_bg.png" bg_visible="false" />
+    <image name="theBar" offset_x="4" offset_y="4" width="92" height="4" bg_color="dc2424" />
+  </progressbar>
+  <textbox name="TbTime" offset_x="306" offset_y="118" width="82" height="20" text_align_horizontal="center" bg_visible="false" />
+</window>

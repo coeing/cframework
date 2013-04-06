@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://www.oeing.eu/cframework/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.oeing.eu/cframework/schemas/ctrls ../../common/ctrls/window.xsd"
+   width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/PlanningWindow/bg.png"/>
+  </image>
+  <button     name="BtToday" style="ArrowButton" offset_x="24" offset_y="24" />
+  <button     name="BtTomorrow" style="ArrowButton" offset_x="24" offset_y="60">
+    <scaleimage name="Background">
+      <image name="middlecenter" angle="180" />
+    </scaleimage>
+  </button>
+  <scaleimage name="ImgTrashBg" style="SquareButtonBackground" offset_x="24" offset_y="186" />
+  <image      name="ImgTrash" texture="data/art/windows/PlanningWindow/trash.png" offset_x="26" offset_y="188" width="28" height="28" bg_visible="false" />
+  <panel      name="PnlPlanning" offset_x="80" offset_y="8" width="480" height="224" bg_color="b0b0b0">
+    <image name="ObjTimeSlotsAnchor" offset_x="0" offset_y="0" />
+    <panel name="PnlTimeSlotTemplate" attach_object="prev sibling" local_attach_point="top left" reference_attach_point="bottom left" width="64" height="32">
+      <image name="ImgBackground" size_mode="stretch" bg_visible="false">
+        <state_normal texture="data/art/windows/PlanningWindow/time_slot.tif"/>
+        <state_active texture="data/art/windows/PlanningWindow/time_slot_active.tif"/>
+      </image>
+      <textbox name="TbTime" offset_y="2" local_attach_point="top" reference_attach_point="top" width="60" height="14" text="18:00" padding_left="2" bg_visible="false"/>
+    </panel>
+    <image name="ObjBroadcastSlotsAnchor" offset_x="64" offset_y="0" />
+    <image name="ImgBroadcastSlotTemplate" attach_object="prev sibling" local_attach_point="top left" reference_attach_point="bottom left" width="288" height="32" bg_visible="false">
+      <state_normal texture="data/art/windows/PlanningWindow/broadcast_slot.tif"/>
+      <state_active texture="data/art/windows/PlanningWindow/broadcast_slot_active.tif"/>
+    </image>
+    <image name="ObjAdvertSlotsAnchor" offset_x="352" offset_y="0" />
+    <image name="ImgAdvertSlotTemplate" attach_object="prev sibling" local_attach_point="top left" reference_attach_point="bottom left" width="128" height="32" bg_visible="false">
+      <state_normal texture="data/art/windows/PlanningWindow/advert_slot.tif"/>
+      <state_active texture="data/art/windows/PlanningWindow/advert_slot_active.tif"/>
+    </image>
+  </panel>
+  <image      name="ImgControlCenter" texture="data/art/windows/PlanningWindow/icon_settings.png" offset_x="592" offset_y="16" width="32" height="32" bg_visible="false" />
+  <image      name="ImgAdvertArchiv" texture="data/art/windows/PlanningWindow/advert_archiv.png" offset_x="592" offset_y="50" width="32" height="32" bg_visible="false" />
+  <image      name="ImgBroadcastArchiv" texture="data/art/windows/PlanningWindow/broadcast_archiv.png" offset_x="592" offset_y="84" width="32" height="32" bg_visible="false" />
+  <image      name="ImgStatsImage" texture="data/art/windows/PlanningWindow/icon_stats.png" offset_x="592" offset_y="118" width="32" height="32" bg_visible="false" />
+  <image      name="ImgStatsBudget" texture="data/art/windows/PlanningWindow/icon_budget.png" offset_x="592" offset_y="152" width="32" height="32" bg_visible="false" />
+  <image      name="ImgMessage" texture="data/art/windows/PlanningWindow/icon_message.png" offset_x="592" offset_y="186" width="32" height="32" bg_visible="false" />
+</window>
+
+
+
+
+

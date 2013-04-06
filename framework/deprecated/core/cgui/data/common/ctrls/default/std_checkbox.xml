@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkbox	xmlns=""
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="..\ctrls\checkbox.xsd" >
+	<button xml_file="common/ctrls/std_checkbox_button.xml" bg_transparent="false" />
+	<textbox />
+</checkbox>

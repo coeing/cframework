@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://cframework.oeing.eu/schemas/ctrls"
+           targetNamespace="http://cframework.oeing.eu/schemas/ctrls"
+           elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation xml:lang="DE">
+      CGui ListBox Schema.
+      Copyright 2007 Christian Oeing. Alle Rechte vorbehalten.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="./listboxcolumn.xsd"/>
+  <xs:element name="listbox" type="ListBoxType"/>
+  <xs:complexType name="ListBoxType">
+    <xs:complexContent>
+      <xs:extension base="CombinedType">
+        <xs:sequence>
+          <xs:element name="column" type="ListBoxColumnType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="row_color1" type="xs:hexBinary" default="aaaaaa"/>
+        <xs:attribute name="row_color2" type="xs:hexBinary" default="777777"/>
+        <xs:attribute name="highlight_color" type="xs:hexBinary" default="aaaa22"/>
+        <xs:attribute name="header_height" type="xs:integer" default="30"/>
+        <xs:attribute name="grid_inner_horiz_size" type="xs:integer" default="1"/>
+        <xs:attribute name="grid_inner_vert_size" type="xs:integer" default="1"/>
+        <xs:attribute name="grid_outer_size" type="xs:integer" default="1"/>
+        <xs:attribute name="row_height" type="xs:integer" default="20"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>
+
+
+
+
+

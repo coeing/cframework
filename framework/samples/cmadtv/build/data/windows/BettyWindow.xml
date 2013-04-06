@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window xmlns="http://cframework.oeing.eu/schemas/ctrls"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://cframework.oeing.eu/schemas/ctrls ../../common/ctrls/window.xsd"
+   width="640" height="242">
+  <image size_mode="stretch">
+    <state_normal texture="data/art/windows/BettyWindow/bg.png"/>
+  </image>
+
+  <panel name="PnlBag" offset_x="36" offset_y="128" width="92" height="76" bg_visible="false">
+    <image name="ImgBg" size_mode="stretch" bg_visible="false" texture="data/art/windows/SupermarketWindow/bag.png"/>
+    <panel name="ObjPresent" style="data/windows/PresentObject.xml" style_location="file" offset_x="12" offset_y="16">
+      <textbox name="TbPrice" visible="false" />
+    </panel>
+  </panel>
+
+  <panel name="PnlSammy" offset_x="144" offset_y="16" width="62" height="80" bg_visible="false">
+    <image size_mode="content" bg_visible="false" texture="data/art/windows/BettyWindow/sammy_bg.png" />
+    <progressbar name="PbPoints1" offset_x="6" offset_y="32" width="50" height="10" bg_visible="false">
+      <image name="theBar" width="50" height="10" bg_color="e87c6c" />
+    </progressbar>
+    <progressbar name="PbPoints2" offset_x="6" offset_y="44" width="50" height="10" bg_visible="false">
+      <image name="theBar" width="50" height="10" bg_color="40a040" />
+    </progressbar>
+    <progressbar name="PbPoints3" offset_x="6" offset_y="56" width="50" height="10" bg_visible="false">
+      <image name="theBar" width="50" height="10" bg_color="5490bc" />
+    </progressbar>
+    <image name="ImgLighter" offset_x="2" offset_y="10" size_mode="content" bg_visible="false" texture="data/art/windows/BettyWindow/lighter.png"/>
+  </panel>
+  
+  <panel name="ObjBetty" offset_x="240" offset_y="74" width="80" height="118" bg_visible="false" />
+
+  <panel name="PnlPicture1" style="data/windows/PictureObject.xml" style_location="file" offset_x="340" offset_y="124">
+    <image name="ImgPicture" texture="data/art/windows/BettyWindow/picture1.png" />
+  </panel>
+  <panel name="PnlPicture2" style="data/windows/PictureObject.xml" style_location="file" offset_x="388" offset_y="124">
+    <image name="ImgPicture" texture="data/art/windows/BettyWindow/picture2.png" />
+  </panel>
+  <panel name="PnlPicture3" style="data/windows/PictureObject.xml" style_location="file" offset_x="544" offset_y="124">
+    <image name="ImgPicture" texture="data/art/windows/BettyWindow/picture3.png" />
+  </panel>
+  
+</window>
+
+
+
+
+
